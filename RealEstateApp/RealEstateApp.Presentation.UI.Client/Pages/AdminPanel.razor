@@ -1,0 +1,214 @@
+﻿@page "/adminpanel"
+@using Radzen.Blazor
+@attribute [Authorize(Roles = "Admin")]
+
+<RadzenCard Class="dashboard-card">
+    <CardHeader class="text-center">
+        <h3 class="dashboard-title">Real Estate Dashboard</h3>
+        <p class="dashboard-subtitle">Welcome back, Admin! Here's a quick overview of your system's performance.</p>
+    </CardHeader>
+    <CardBody>
+        <!-- System Performance Section -->
+        <div class="row mb-4">
+            <!-- System Health Section -->
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <RadzenCard Style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 20px; text-align: center; border-radius: 10px;">
+                        <RadzenIcon Icon="memory" Size="50px" />
+                        <h5>CPU Usage</h5>
+                        <RadzenProgressBar Value="45" ShowValue="true" />
+                        <p>45% Usage</p>
+                    </RadzenCard>
+                </div>
+                <div class="col-md-4">
+                    <RadzenCard Style="background: linear-gradient(135deg, #ff9966, #ff5e62); color: white; padding: 20px; text-align: center; border-radius: 10px;">
+                        <RadzenIcon Icon="storage" Size="50px" />
+                        <h5>Memory Usage</h5>
+                        <RadzenProgressBar Value="68" ShowValue="true" />
+                        <p>68% Usage</p>
+                    </RadzenCard>
+                </div>
+                <div class="col-md-4">
+                    <RadzenCard Style="background: linear-gradient(135deg, #11998e, #38ef7d); color: white; padding: 20px; text-align: center; border-radius: 10px;">
+                        <RadzenIcon Icon="schedule" Size="50px" />
+                        <h5>Uptime</h5>
+                        <p style="font-size: 1.5rem; font-weight: bold;">3 Days</p>
+                    </RadzenCard>
+                </div>
+          
+
+            <div class="col-md-8">
+                <RadzenPanel Class="custom-panel">
+                    <RadzenPanelTitle>
+                        <h5>Property Listings Overview</h5>
+                    </RadzenPanelTitle>
+                    <RadzenPanelContent>
+                        <RadzenChart Width="100%" Height="300px">
+                            <RadzenLineSeries Data="@propertyListingsData" CategoryProperty="Date" ValueProperty="TotalProperties" Title="Total Properties" />
+                        </RadzenChart>
+                    </RadzenPanelContent>
+                </RadzenPanel>
+            </div>
+        </div>
+        </div>
+        <!-- Monthly Earnings Section -->
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <RadzenPanel Class="custom-panel">
+                    <RadzenPanelTitle>
+                        <h5>Monthly Earnings</h5>
+                    </RadzenPanelTitle>
+                    <RadzenPanelContent>
+                        <RadzenChart Width="100%" Height="300px">
+                            <RadzenBarSeries Data="@earningsData" CategoryProperty="Month" ValueProperty="Amount" Title="Earnings" />
+                        </RadzenChart>
+                    </RadzenPanelContent>
+                </RadzenPanel>
+            </div>
+        </div>
+      
+        <!-- Property Distribution Section -->
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <RadzenPanel Class="custom-panel">
+                    <RadzenPanelTitle>
+                        <h5>Property Distribution</h5>
+                    </RadzenPanelTitle>
+                    <RadzenPanelContent>
+                        <RadzenChart Width="100%" Height="300px">
+                            <RadzenPieSeries Data="@propertyDistributionData" CategoryProperty="Category" ValueProperty="Amount" Title="Property Distribution" />
+                        </RadzenChart>
+                    </RadzenPanelContent>
+                </RadzenPanel>
+            </div>
+        </div>
+
+        <!-- Quick Actions Section -->
+        <div class="row text-center">
+            <div class="col-md-4">
+                <RadzenButton Text="Add New Property" Icon="add_circle_outline" Click="AddNewProperty" Class="custom-button" />
+            </div>
+            <div class="col-md-4">
+                <RadzenButton Text="Message Agents" Icon="message" Click="MessageAgents" Class="custom-button" />
+            </div>
+            <div class="col-md-4">
+                <RadzenButton Text="Manage Users" Icon="people" Click="ManageUsers" Class="custom-button" />
+            </div>
+        </div>
+    </CardBody>
+</RadzenCard>
+
+<style>
+    .dashboard-card {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .dashboard-title {
+        color: #4e54c8;
+        font-weight: bold;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .dashboard-subtitle {
+        color: #6a0dad;
+        font-size: 1.2rem;
+    }
+
+    .custom-panel {
+        background: white;
+        border-radius: 12px;
+        padding: 15px;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+
+    .custom-panel:hover {
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .custom-button {
+        background: linear-gradient(135deg, #6a0dad, #4e54c8);
+        color: white;
+        width: 100%;
+        padding: 12px;
+        font-weight: bold;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+
+    .custom-button:hover {
+        background: linear-gradient(135deg, #4e54c8, #6a0dad);
+        transform: scale(1.05);
+    }
+
+    .row {
+        margin: 0 -10px;
+    }
+
+    .col-md-4, .col-md-8, .col-md-12 {
+        padding: 10px;
+    }
+</style>
+
+
+@code {
+    private List<PropertyListingsData> propertyListingsData = new List<PropertyListingsData>
+    {
+        new PropertyListingsData { Date = "2024-10-01", TotalProperties = 120 },
+        new PropertyListingsData { Date = "2024-10-02", TotalProperties = 150 },
+        new PropertyListingsData { Date = "2024-10-03", TotalProperties = 175 },
+        new PropertyListingsData { Date = "2024-10-04", TotalProperties = 200 }
+    };
+
+    private List<EarningsData> earningsData = new List<EarningsData>
+    {
+        new EarningsData { Month = "January", Amount = 2000 },
+        new EarningsData { Month = "February", Amount = 2500 },
+        new EarningsData { Month = "March", Amount = 3000 },
+        new EarningsData { Month = "April", Amount = 3500 }
+    };
+
+    private List<PropertyDistributionData> propertyDistributionData = new List<PropertyDistributionData>
+    {
+        new PropertyDistributionData { Category = "Residential", Amount = 60 },
+        new PropertyDistributionData { Category = "Commercial", Amount = 30 },
+        new PropertyDistributionData { Category = "Land", Amount = 10 }
+    };
+
+    public class PropertyListingsData
+    {
+        public string Date { get; set; }
+        public int TotalProperties { get; set; }
+    }
+
+    public class EarningsData
+    {
+        public string Month { get; set; }
+        public decimal Amount { get; set; }
+    }
+
+    public class PropertyDistributionData
+    {
+        public string Category { get; set; }
+        public int Amount { get; set; }
+    }
+
+    // Methods for Quick Actions
+    private void AddNewProperty()
+    {
+        // Logic to add a new property
+    }
+
+    private void MessageAgents()
+    {
+        // Logic to send messages to agents
+    }
+
+    private void ManageUsers()
+    {
+        // Logic to manage users
+    }
+}

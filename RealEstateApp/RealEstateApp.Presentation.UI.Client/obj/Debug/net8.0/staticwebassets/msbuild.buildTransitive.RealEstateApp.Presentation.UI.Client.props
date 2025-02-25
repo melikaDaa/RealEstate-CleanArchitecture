@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\RealEstateApp.Presentation.UI.Client.props" />
+</Project>

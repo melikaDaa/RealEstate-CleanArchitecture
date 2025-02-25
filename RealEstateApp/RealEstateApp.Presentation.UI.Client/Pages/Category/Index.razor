@@ -1,0 +1,81 @@
+﻿@page "/categories"
+@layout MainLayout
+@using RealEstateApp.Application.DTOs
+@using RealEstateApp.Presentation.UI.Client.Data
+@inject CategoryService CategoryService
+@inject DialogService DialogService
+@using Radzen
+
+<h3>Categories</h3>
+
+<RadzenButton Text="Add Category" Click="@(() => OpenAddCategoryDialog())" Style="margin-bottom: 20px;" />
+
+<RadzenDataGrid Data="@categories" TItem="CategoryDto" ColumnWidth="200px"
+                llowFiltering="true" AllowColumnResize="true" AllowAlternatingRows="false" FilterMode="FilterMode.Advanced"
+                AllowGrouping="true" AllowSorting="true" PageSize="5" AllowPaging="true" PagerHorizontalAlign="HorizontalAlign.Left"
+                IsLoading=@isLoading Sort="@LoadCategories" Page="@LoadCategories" Group="@LoadCategories" Filter="@LoadCategories">
+    <Columns>
+        <RadzenDataGridColumn TItem="CategoryDto" Property="Title" Title="Title" />
+        <RadzenDataGridColumn TItem="CategoryDto" Property="Description" Title="Description" />
+        <RadzenDataGridColumn TItem="CategoryDto" Title="Actions">
+            <Template Context="category">
+                <RadzenButton Text="Delete" ButtonStyle="ButtonStyle.Danger" Click="@(args => DeleteCategory(category))" />
+                <RadzenButton Text="Edit" ButtonStyle="ButtonStyle.Primary" Click="@(args => OpenEditCategoryDialog(category))" />
+            </Template>
+        </RadzenDataGridColumn>
+    </Columns>
+</RadzenDataGrid>
+
+@code {
+    private List<CategoryDto> categories;
+    bool isLoading = false;
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadCategories();
+    }
+
+    private async Task LoadCategories()
+    {
+        isLoading = true;
+        categories = await CategoryService.GetAllCategoriesAsync();
+        isLoading = false;
+    }
+
+    private async Task DeleteCategory(CategoryDto category)
+    {
+        await CategoryService.DeleteCategoryAsync(category.Id);
+        await LoadCategories(); // Reload categories after deletion
+    }
+
+    private async Task OpenAddCategoryDialog()
+    {
+        var options = new DialogOptions() { Width = "500px", Height = "300px" };
+
+        var result = await DialogService.OpenAsync<AddCategoryDialog>("Add Category", new Dictionary<string, object>
+    {
+        { "IsEdit", false }
+    }, options);
+
+        if (result != null && (bool)result)
+        {
+            await LoadCategories(); // Reload categories after a new category is added
+        }
+    }
+
+    private async Task OpenEditCategoryDialog(CategoryDto category)
+    {
+        var options = new DialogOptions() { Width = "500px", Height = "300px" };
+
+        var result = await DialogService.OpenAsync<AddCategoryDialog>("Edit Category", new Dictionary<string, object>
+    {
+        { "Category", category },
+        { "IsEdit", true }
+    }, options);
+
+        if (result != null && (bool)result)
+        {
+            await LoadCategories(); // Reload categories after editing a category
+        }
+    }
+
+}

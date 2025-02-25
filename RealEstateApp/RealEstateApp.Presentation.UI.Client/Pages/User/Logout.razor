@@ -1,0 +1,26 @@
+﻿@page "/logout"
+@layout MainLayout
+@using Blazored.LocalStorage
+@using RealEstateApp.Presentation.UI.Client.Data
+@inject ILocalStorageService localStorage
+@inject CustomAuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager Navigation
+
+<h3>Logging out...</h3>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await LogoutUser();
+    }
+
+    private async Task LogoutUser()
+    {
+        // حذف توکن از localStorage و به‌روزرسانی وضعیت کاربر
+        await localStorage.RemoveItemAsync("authToken");
+        AuthenticationStateProvider.MarkUserAsLoggedOut();
+
+        // هدایت به صفحه لاگین بعد از خروج
+        Navigation.NavigateTo("/login");
+    }
+}

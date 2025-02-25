@@ -1,0 +1,93 @@
+﻿@using RealEstateApp.Application.DTOs
+@using RealEstateApp.Application.Interfaces
+@using RealEstateApp.Presentation.UI.Client.Data
+@inject EstateService EstateService
+@inject CategoryService categoryservice
+@inject DialogService DialogService
+@inject NotificationService NotificationService
+
+@if (Estate != null)
+{
+    <RadzenTemplateForm Data="@Estate" TItem="EstateCreateDto1" Submit="OnSubmit">
+        <div class="rz-form-field">
+            <RadzenLabel Text="Title" />
+            <RadzenTextBox @bind-Value="Estate.Title" Style="width: 100%;" />
+        </div>
+
+        <div class="rz-form-field">
+            <RadzenLabel Text="Description" />
+            <RadzenTextBox @bind-Value="Estate.Description" Style="width: 100%;" />
+        </div>
+
+        <div class="rz-form-field">
+            <RadzenLabel Text="Category" />
+            <RadzenDropDown @bind-Value="Estate.CategoryId" Data="@categories"
+                            TextProperty="Title" ValueProperty="Id" Style="width: 100%"
+                            Placeholder="Select category" />
+        </div>
+
+        <div class="rz-form-field">
+            <RadzenLabel Text="Metrage (sqm)" />
+            <RadzenNumeric @bind-Value="Estate.Metrage" Style="width: 100%;" />
+        </div>
+
+        <div class="rz-form-field">
+            <RadzenLabel Text="Price" />
+            <RadzenNumeric @bind-Value="Estate.Price" Style="width: 100%;" />
+        </div>
+
+        <div class="rz-form-field">
+            <RadzenLabel Text="Address" />
+            <RadzenTextBox @bind-Value="Estate.Address" Style="width: 100%;" />
+        </div>
+
+        <div class="rz-form-field">
+            <RadzenLabel Text="Image" />
+            <InputFile OnChange="OnFileSelect" />
+        </div>
+
+        <div style="margin-top: 20px;">
+            <RadzenButton Text="Save" ButtonStyle="ButtonStyle.Primary" Type="Submit" />
+            <RadzenButton Text="Cancel" ButtonStyle="ButtonStyle.Secondary" Click="@(args => DialogService.Close(false))" />
+        </div>
+    </RadzenTemplateForm>
+}
+
+@code {
+    [Parameter] public bool IsEdit { get; set; }
+    [Parameter] public EstateCreateDto1 Estate { get; set; } = new EstateCreateDto1();
+    [Parameter] public EstateUpdateDto Estates { get; set; } = new EstateUpdateDto();
+
+    private List<CategoryDto> categories = new List<CategoryDto>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        categories = await categoryservice.GetAllCategoriesAsync();
+    }
+
+    private async Task OnFileSelect(InputFileChangeEventArgs args)
+    {
+        if (args.File != null)
+        {
+            using var memoryStream = new MemoryStream();
+            await args.File.OpenReadStream().CopyToAsync(memoryStream);
+            Estate.Image = memoryStream.ToArray();
+        }
+    }
+
+    private async Task OnSubmit()
+    {
+        if (IsEdit)
+        {
+            await EstateService.UpdateEstateAsync(Estate.Id, Estate); // به‌روزرسانی ملک
+            NotificationService.Notify(NotificationSeverity.Success, "Estate Updated", $"Estate {Estate.Title} updated successfully!");
+        }
+        else
+        {
+            await EstateService.AddEstateAsync(Estate);
+            NotificationService.Notify(NotificationSeverity.Success, "Estate Added", $"Estate {Estate.Title} added successfully!");
+        }
+
+        DialogService.Close(true);
+    }
+}

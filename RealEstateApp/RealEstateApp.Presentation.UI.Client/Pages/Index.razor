@@ -1,0 +1,111 @@
+﻿@page "/Admin"
+
+@inject NavigationManager Navigation
+
+<PageTitle>Admin Panel</PageTitle>
+
+<div class="hero-section">
+    <div class="content">
+        <h1 class="title">Welcome to Your Admin Panel</h1>
+        <p class="subtitle">Streamline your management process with ease and elegance.</p>
+        <div class="button-container">
+            <button class="primary-btn" @onclick="NavigateToDashboard">Get Started</button>
+            <button class="secondary-btn" @onclick="NavigateToHelp">Learn More</button>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Global Styles */
+    body {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        background: linear-gradient(to bottom right, #4e54c8, #8f94fb);
+    }
+
+    .hero-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Ensures the section takes up the full viewport height */
+        text-align: center;
+    }
+
+    .content {
+        max-width: 650px;
+        background: rgba(255, 255, 255, 0.15);
+        padding: 50px;
+        border-radius: 20px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        animation: fadeIn 1.5s ease-in-out;
+    }
+
+    .title {
+        font-size: 3rem;
+        margin-bottom: 25px;
+        color: #fff;
+        font-weight: bold;
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .subtitle {
+        font-size: 1.3rem;
+        margin-bottom: 35px;
+        color: #e0e0ff;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .primary-btn, .secondary-btn {
+        font-size: 1.1rem;
+        padding: 12px 25px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.4s ease-in-out;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+    }
+
+    .primary-btn {
+        background: linear-gradient(to right, #6a11cb, #2575fc);
+        color: #fff;
+        box-shadow: 0 4px 10px rgba(106, 17, 203, 0.5);
+    }
+
+        .primary-btn:hover {
+            transform: translateY(-3px) scale(1.1);
+            box-shadow: 0 6px 20px rgba(106, 17, 203, 0.7);
+        }
+
+    .secondary-btn {
+        background-color: transparent;
+        color: #fff;
+        border: 2px solid #fff;
+        box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+    }
+
+        .secondary-btn:hover {
+            background: #fff;
+            color: #6a11cb;
+            transform: translateY(-3px) scale(1.1);
+            box-shadow: 0 6px 20px rgba(255, 255, 255, 0.5);
+        }
+</style>
+
+@code {
+    private void NavigateToDashboard()
+    {
+        Navigation.NavigateTo("/adminpanel");
+    }
+
+    private void NavigateToHelp()
+    {
+        Navigation.NavigateTo("/help");
+    }
+}

@@ -1,0 +1,97 @@
+﻿@page "/login"
+@layout MainLayout
+@using Blazored.LocalStorage
+@using RealEstateApp.Presentation.UI.Client.Data
+@using System.IdentityModel.Tokens.Jwt
+@using System.Security.Claims
+@inject HttpClient Http
+@inject ILocalStorageService localStorage
+@inject CustomAuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager Navigation
+
+<div class="login-page">
+    <RadzenCard Style="width: 400px; margin: auto; padding: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+        <h3 class="text-center">Login to Your Account</h3>
+
+        <EditForm Model="@loginModel" OnValidSubmit="@LoginUser">
+            <RadzenTextBox @bind-Value="loginModel.Username" Placeholder="Username" Style="margin-bottom: 20px; width: 100%;" />
+            <RadzenPassword @bind-Value="loginModel.Password" Placeholder="Password" Style="margin-bottom: 20px; width: 100%;" />
+            <RadzenButton Text="Login" Click="@(async () => await LoginUser())" Style="width: 100%; background-color: #4CAF50; color: white; border: none; border-radius: 5px;" />
+        </EditForm>
+
+        @if (!string.IsNullOrEmpty(errorMessage))
+        {
+            <RadzenAlert Severity="Error" Summary="Login Failed" Detail="@errorMessage" />
+        }
+    </RadzenCard>
+</div>
+
+<style>
+    .login-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f9f9f9;
+    }
+
+    .text-center {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+</style>
+
+@code {
+    private LoginModel loginModel = new LoginModel();
+    private string errorMessage;
+
+    private async Task LoginUser()
+    {
+        var response = await Http.PostAsJsonAsync("https://localhost:7044/api/user/login", loginModel);
+
+        if (response.IsSuccessStatusCode)
+        {
+            var result = await response.Content.ReadFromJsonAsync<LoginResponse>();
+            await localStorage.SetItemAsync("authToken", result.Token);
+
+            AuthenticationStateProvider.MarkUserAsAuthenticated(result.Token);
+
+            var handler = new JwtSecurityTokenHandler();
+
+            if (!handler.CanReadToken(result.Token))
+            {
+                errorMessage = "Token is not in a valid format.";
+                return;
+            }
+
+            var jwtToken = handler.ReadJwtToken(result.Token);
+            var role = jwtToken.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role)?.Value;
+
+            if (role == "Admin")
+            {
+                Navigation.NavigateTo("/adminpanel");
+            }
+            else
+            {
+                Navigation.NavigateTo("/user-dashboard");
+            }
+        }
+        else
+        {
+            var errorContent = await response.Content.ReadAsStringAsync();
+            errorMessage = $"Login failed: {errorContent}";
+        }
+    }
+
+    public class LoginModel
+    {
+        public string Username { get; set; }
+        public string Password { get; set; }
+    }
+
+    public class LoginResponse
+    {
+        public string Token { get; set; }
+    }
+}

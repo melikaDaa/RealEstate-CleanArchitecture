@@ -1,0 +1,50 @@
+﻿@using RealEstateApp.Application.DTOs
+@using RealEstateApp.Presentation.UI.Client.Data
+@inject CategoryService CategoryService
+@inject DialogService DialogService
+@inject NotificationService NotificationService
+
+@if (Category != null)
+{
+    <RadzenTemplateForm Data="@Category" TItem="CategoryDto" Submit="@OnSubmit">
+        <div class="rz-form-field">
+            <RadzenLabel Text="Title" />
+            <RadzenTextBox @bind-Value="Category.Title" Style="width: 100%;" />
+        </div>
+
+        <div class="rz-form-field">
+            <RadzenLabel Text="Description" />
+            <RadzenTextBox @bind-Value="Category.Description" Style="width: 100%;" />
+        </div>
+
+        <div style="margin-top: 20px;">
+            <RadzenButton Text="Save" ButtonStyle="ButtonStyle.Primary" Type="Submit" />
+            <RadzenButton Text="Cancel" ButtonStyle="ButtonStyle.Secondary" Click="@(() => DialogService.Close(false))" />
+        </div>
+    </RadzenTemplateForm>
+}
+
+@code {
+    [Parameter] public bool IsEdit { get; set; }
+    [Parameter] public CategoryDto Category { get; set; } = new CategoryDto();
+
+    private async Task OnSubmit()
+    {
+        if (IsEdit)
+        {
+            // Update the category
+            await CategoryService.UpdateCategoryAsync(Category.Id, Category);
+            NotificationService.Notify(NotificationSeverity.Success, "Category Updated", $"Category {Category.Title} updated successfully!");
+
+        }
+        else
+        {
+            // Add a new category
+            await CategoryService.AddCategoryAsync(Category);
+            NotificationService.Notify(NotificationSeverity.Success, "Category Added", $"Category {Category.Title} added successfully!");
+        }
+
+        // Close the dialog after saving
+        DialogService.Close(true);
+    }
+}

@@ -1,0 +1,107 @@
+﻿@page "/estates"
+@layout MainLayout
+@using RealEstateApp.Application.DTOs
+@using RealEstateApp.Presentation.UI.Client.Data
+@inject EstateService EstateService
+@inject DialogService DialogService
+@using Radzen
+@attribute [Authorize(Roles = "Admin")]
+<h3>Estates</h3>
+
+<RadzenButton Text="Add Estate" Click="@(() => OpenAddEstateDialog())" Style="margin-bottom: 20px;" />
+
+<RadzenDataGrid Data="@estates" TItem="EstateDto" ColumnWidth="200px"
+                AllowFiltering="true" AllowColumnResize="true" AllowAlternatingRows="false" FilterMode="FilterMode.Advanced"
+                AllowGrouping="true" AllowSorting="true" PageSize="5" AllowPaging="true" PagerHorizontalAlign="HorizontalAlign.Left"
+                IsLoading=@isLoading Sort="@LoadEstates" Page="@LoadEstates" Group="@LoadEstates" Filter="@LoadEstates">
+    <Columns>
+        <RadzenDataGridColumn TItem="EstateDto" Property="Title" Title="Title" />
+        <RadzenDataGridColumn TItem="EstateDto" Property="Description" Title="Description" />
+        <RadzenDataGridColumn TItem="EstateDto" Property="CategoryName" Title="Category" />
+        <RadzenDataGridColumn TItem="EstateDto" Property="Address" Title="Address" />
+        <RadzenDataGridColumn TItem="EstateDto" Property="Metrage" Title="Metrage" />
+        <RadzenDataGridColumn TItem="EstateDto" Property="Price" Title="Price" />
+
+        <RadzenDataGridColumn TItem="EstateDto" Title="Image">
+            <Template Context="estate">
+                @if (!string.IsNullOrEmpty(estate.Image))
+                {
+                    <img src="data:image/png;base64,@estate.Image" alt="Estate Image" width="100" />
+                }
+            </Template>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="EstateDto" Title="Actions">
+            <Template Context="estate">
+                <RadzenButton Text="Delete" ButtonStyle="ButtonStyle.Danger" Click="@(args => DeleteEstate(estate.Id))" />
+                <RadzenButton Text="Edit" ButtonStyle="ButtonStyle.Primary" Click="@(args => OpenEditEstateDialog(estate))" />
+            </Template>
+        </RadzenDataGridColumn>
+    </Columns>
+</RadzenDataGrid>
+
+@code {
+    private List<EstateDto> estates;
+    bool isLoading = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadEstates();
+    }
+
+    private async Task LoadEstates()
+    {
+        isLoading = true;
+        estates = (await EstateService.GetAllEstatesAsync()).ToList();
+        isLoading = false;
+    }
+
+    private async Task DeleteEstate(int estateId)
+    {
+        await EstateService.DeleteEstateAsync(estateId);
+        await LoadEstates(); // Reload estates after deletion
+    }
+
+    private async Task OpenAddEstateDialog()
+    {
+        var options = new DialogOptions() { Width = "600px", Height = "400px" };
+
+        var result = await DialogService.OpenAsync<AddEstateDialog>("Add Estate", new Dictionary<string, object>
+        {
+            { "IsEdit", false }
+        }, options);
+
+        if (result != null && (bool)result)
+        {
+            await LoadEstates(); // Reload estates after a new estate is added
+        }
+    }
+
+    private async Task OpenEditEstateDialog(EstateDto estate)
+    {
+        var estateToEdit = new EstateCreateDto1
+            {
+                Id = estate.Id,
+                Title = estate.Title,
+                Description = estate.Description,
+                CategoryId = estate.CategoryId,
+                Address = estate.Address,
+                Metrage = estate.Metrage,
+                Price = estate.Price,
+                Image = Convert.FromBase64String(estate.Image)
+            };
+
+        var options = new DialogOptions() { Width = "600px", Height = "400px" };
+
+        var result = await DialogService.OpenAsync<AddEstateDialog>("Edit Estate", new Dictionary<string, object>
+    {
+        { "Estate", estateToEdit },
+        { "IsEdit", true }
+    }, options);
+
+        if (result != null && (bool)result)
+        {
+            await LoadEstates(); // Reload estates after editing an estate
+        }
+    }
+
+}
