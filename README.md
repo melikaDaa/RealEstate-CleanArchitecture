@@ -127,7 +127,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### **Contact**
 
-For any inquiries, issues, or suggestions, please feel free to open an issue on the [GitHub Issues page](https://github.com/melikaDaa/RealEstate-CleanArchitecture/issues). You can also contact me directly at **melika.daa@example.com**.
+For any inquiries, issues, or suggestions, please feel free to open an issue on the [GitHub Issues page](https://github.com/melikaDaa/RealEstate-CleanArchitecture/issues). You can also contact me directly at 
 
 ---
 
