@@ -94,27 +94,6 @@ The project is divided into several key folders to separate concerns:
   
 - **User Interface**: The main user interface is accessible at the root URL (`https://localhost:5001`). Users can view available properties and filter them based on different criteria.
 
----
-
-### **Contributing**
-
-We welcome contributions to improve the project! Here's how you can contribute:
-
-1. **Fork the repository**.
-2. **Create a new branch** for your feature or fix:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. **Make your changes** and **commit** them:
-   ```bash
-   git add .
-   git commit -m "Description of the changes"
-   ```
-4. **Push your changes**:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-5. **Create a Pull Request** on GitHub and describe the changes you made.
 
 ---
 
