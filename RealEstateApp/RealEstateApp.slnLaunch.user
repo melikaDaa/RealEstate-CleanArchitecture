@@ -3,13 +3,12 @@
     "Name": "New Profile",
     "Projects": [
       {
-        "Name": "RealEstateApp.Presentation.WebApi\\RealEstateApp.Presentation.WebApi.csproj",
+        "Path": "RealEstateApp.Presentation.WebApi\\RealEstateApp.Presentation.WebApi.csproj",
         "Action": "Start"
       },
       {
-        "Name": "RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj",
-        "Action": "Start",
-        "DebugTarget": ""
+        "Path": "RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj",
+        "Action": "Start"
       }
     ]
   }

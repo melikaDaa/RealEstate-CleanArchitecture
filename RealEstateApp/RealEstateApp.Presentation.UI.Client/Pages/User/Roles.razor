@@ -1,0 +1,25 @@
+﻿@page "/roles"
+@layout MainLayout
+@using RealEstateApp.Presentation.UI.Client.Data
+@inject UserService RoleService
+
+<h3>Roles</h3>
+
+<RadzenDataGrid TItem="string" Data="@roles" ColumnWidth="200px"
+                llowFiltering="true" AllowColumnResize="true" AllowAlternatingRows="false" FilterMode="FilterMode.Advanced"
+                AllowGrouping="true" AllowSorting="true" PageSize="5" AllowPaging="true" PagerHorizontalAlign="HorizontalAlign.Left">
+    <Columns>
+        <RadzenDataGridColumn TItem="string" Property="." Title="Role Name" />
+
+    </Columns>
+</RadzenDataGrid>
+
+@code {
+    private List<string> roles = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        // بارگذاری نقش‌ها از سرویس
+        roles = await RoleService.GetRolesAsync();
+    }
+}

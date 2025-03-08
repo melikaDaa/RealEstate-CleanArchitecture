@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W0CnM+OoFSFs1UYwPKGeXYXJU8zI3+TGW9EZp/R/2ubfLtwkU25PvpobkGOBBqnrCM0ISVaJFrF8+YSxuwUmjQ==",
+  "dgSpecHash": "p4jVjlIpGQs=",
   "success": true,
-  "projectFilePath": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj",
+  "projectFilePath": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\europe stock\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\europe stock\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

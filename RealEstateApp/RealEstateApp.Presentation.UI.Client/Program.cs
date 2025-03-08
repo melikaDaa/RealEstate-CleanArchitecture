@@ -29,6 +29,7 @@ namespace RealEstateApp.Presentation.UI.Client
 
 
             builder.Services.AddScoped<CategoryService>();
+            builder.Services.AddScoped<UserService>();
 
             // ÇÖÇÝå 
             builder.Services.AddDbContext<ApplicationDbContext>(options =>

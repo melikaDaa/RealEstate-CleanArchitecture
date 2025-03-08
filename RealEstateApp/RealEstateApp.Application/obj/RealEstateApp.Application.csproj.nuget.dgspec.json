@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj": {}
+    "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj": {}
   },
   "projects": {
-    "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj": {
+    "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj",
+        "projectUniqueName": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj",
         "projectName": "RealEstateApp.Application",
-        "projectPath": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj",
+        "projectPath": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj",
         "packagesPath": "C:\\Users\\europe stock\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Application\\obj\\",
+        "outputPath": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\europe stock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -43,7 +45,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -82,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

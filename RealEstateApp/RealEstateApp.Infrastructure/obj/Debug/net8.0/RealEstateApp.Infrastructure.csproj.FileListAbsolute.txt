@@ -17,3 +17,23 @@ D:\New folder\RealestateProject\RealEstateApp\RealEstateApp.Infrastructure\bin\D
 D:\New folder\RealestateProject\RealEstateApp\RealEstateApp.Infrastructure\bin\Debug\net8.0\RealEstateApp.Domain.pdb
 D:\New folder\RealestateProject\RealEstateApp\RealEstateApp.Infrastructure\obj\Debug\net8.0\RealEsta.30976663.Up2Date
 D:\New folder\RealestateProject\RealEstateApp\RealEstateApp.Infrastructure\obj\Debug\net8.0\RealEstateApp.Infrastructure.genruntimeconfig.cache
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\bin\Debug\net8.0\RealEstateApp.Infrastructure.deps.json
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\bin\Debug\net8.0\RealEstateApp.Infrastructure.runtimeconfig.json
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\bin\Debug\net8.0\RealEstateApp.Infrastructure.dll
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\bin\Debug\net8.0\RealEstateApp.Infrastructure.pdb
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\bin\Debug\net8.0\RealEstateApp.Application.dll
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\bin\Debug\net8.0\RealEstateApp.Domain.dll
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\bin\Debug\net8.0\RealEstateApp.Application.pdb
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\bin\Debug\net8.0\RealEstateApp.Domain.pdb
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\obj\Debug\net8.0\RealEstateApp.Infrastructure.csproj.AssemblyReference.cache
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\obj\Debug\net8.0\RealEstateApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\obj\Debug\net8.0\RealEstateApp.Infrastructure.AssemblyInfoInputs.cache
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\obj\Debug\net8.0\RealEstateApp.Infrastructure.AssemblyInfo.cs
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\obj\Debug\net8.0\RealEstateApp.Infrastructure.csproj.CoreCompileInputs.cache
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\obj\Debug\net8.0\RealEstateApp.Infrastructure.sourcelink.json
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\obj\Debug\net8.0\RealEsta.30976663.Up2Date
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\obj\Debug\net8.0\RealEstateApp.Infrastructure.dll
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\obj\Debug\net8.0\refint\RealEstateApp.Infrastructure.dll
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\obj\Debug\net8.0\RealEstateApp.Infrastructure.pdb
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\obj\Debug\net8.0\RealEstateApp.Infrastructure.genruntimeconfig.cache
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Infrastructure\obj\Debug\net8.0\ref\RealEstateApp.Infrastructure.dll

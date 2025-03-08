@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Gyd1bPYAyLDjw0gftUnm6rlPALuwq73cLQf1nMdylbQ=",
+  "Hash": "DlcXHMB/II2HVyzz6vsa+f4jvUX+2PGboOmrAtK47Oc=",
   "Source": "RealEstateApp.Presentation.UI.Client",
   "BasePath": "_content/RealEstateApp.Presentation.UI.Client",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "RealEstateApp.Presentation.UI.Client\\wwwroot",
       "Source": "RealEstateApp.Presentation.UI.Client",
-      "ContentRoot": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
+      "ContentRoot": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
       "BasePath": "_content/RealEstateApp.Presentation.UI.Client",
       "Pattern": "**"
     }
@@ -31,6 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "1o8i26hd1f",
+      "Integrity": "n5mJiHCqZReGw04B0Ykh9ZId31vSUDgA03NHJO31/+s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\dark.css"
@@ -50,6 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ob4bni9ttn",
+      "Integrity": "XEYNiFxu2WmfkLqjxzWK5KErMQmF4bPZQN9nAfR30fU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\dark-base.css"
@@ -69,6 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "f9yvf3g7j5",
+      "Integrity": "M9oCY0HEHaFPTMj7CLTxNBT7/8jUvcI3/3q27/kphek=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\dark-wcag.css"
@@ -88,6 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "gmc6y1b0g8",
+      "Integrity": "aDvc5saBbVpx6tJy7vpzkWvcQ5fI7mLAevwY2LLypS0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\default.css"
@@ -107,6 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "dnqpzxqo2k",
+      "Integrity": "KRqy3Y/eGSwBXcy+SEX9BiKU8lf7WudyPrT4/D/kZGo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\default-base.css"
@@ -126,6 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "796b73bq82",
+      "Integrity": "lYiMLG73UrqjeD3Xr0zwkygnPDSAQXeAo1554Yjqjkc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\default-wcag.css"
@@ -145,6 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "bqkfex65ut",
+      "Integrity": "s6gEwhdwFuJkp2Yo+AHPR1LP1aqwltVSUvPgMWIMT9s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\fluent.css"
@@ -164,6 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "0k9duhznpe",
+      "Integrity": "oCP3KDCJMxw6so9F9DCK85Cs7Qjwi9ENqNqa6YZMS54=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\fluent-base.css"
@@ -183,6 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "9k8nkxxulq",
+      "Integrity": "5yzGFPjiDcuQjscmZoH+bWz9X9IXeoueKENVO/Zh8u8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\fluent-dark.css"
@@ -202,6 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "nkak2e4bdn",
+      "Integrity": "h6zopr1GF2N9Qps3jjrwupasO3LYyzJDsbVxYaS5Hfs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\fluent-dark-base.css"
@@ -221,6 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "o0kgo2f644",
+      "Integrity": "qGbM8UkQnda2Gv8i0eP50ion8WLnXUEHuAbSDlQZI9o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\humanistic.css"
@@ -240,6 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "p7r7ddkdlw",
+      "Integrity": "e3lXv5cBz4KuVVCiGRFOXKbSU+SJRL1cme4REVcXTSI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\humanistic-base.css"
@@ -259,6 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "nnxvkkqrb3",
+      "Integrity": "3X90R+D06zHXUhsLM9esWO80ghMijbRjx3JrsLpb04M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\humanistic-dark.css"
@@ -278,6 +304,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "5b8codi1nt",
+      "Integrity": "EYFCU636Os5818ENuXrstgrvNBeEdnvnRl0FDDgfQws=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\humanistic-dark-base.css"
@@ -297,6 +325,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "a5szytxnku",
+      "Integrity": "wsCFo85Tm++Hir55ycJcA850vMHr3ejT4YmaO32HaNc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\humanistic-dark-wcag.css"
@@ -316,6 +346,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "x6merli1rk",
+      "Integrity": "J8kJYxpBFMrMjHMBSdDlq1lYqyntxOrDZ8AW5FrxH8U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\humanistic-wcag.css"
@@ -335,6 +367,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "cvb97750cz",
+      "Integrity": "qCg4ni5r2c6nC7CcpCAOWT9ZEiRzncf0SPo/pyKCkUg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material.css"
@@ -354,6 +388,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "tsljen4fqn",
+      "Integrity": "HX+hmkIc+4Y8lr6muWB643nIfe4TnC75s7WMrExRbJg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material3.css"
@@ -373,6 +409,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "oa5heku8fc",
+      "Integrity": "ELNcB+q99nA7Zwpk/XflKV6pZgA8XjtrWz6S3wBGkVg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material3-base.css"
@@ -392,6 +430,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "yfrkyetdid",
+      "Integrity": "7jFfL5KpcTVaAaAEhWoN8LWtj+6ZLVaIVVyTWOj48Vg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material3-dark.css"
@@ -411,6 +451,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "hm6oq5jsf4",
+      "Integrity": "ifXsS3EEF8MVsk1h3BGZ0uXXjF86yaSAwbnNFKqkAIg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material3-dark-base.css"
@@ -430,6 +472,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "tr4dxpk40s",
+      "Integrity": "aV6XNLgHnH8CUJMdfQwLBjd3natJCibJoUdCLk4g+IM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material-base.css"
@@ -449,6 +493,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "mdz8rri82p",
+      "Integrity": "GszAwFwn2gIyFSK+wlKbBDHlMqoejc0Szpq7ZK02x3k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material-dark.css"
@@ -468,6 +514,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "v4kf9o5x2b",
+      "Integrity": "r6zg4cqnmRwjt8T4TjX4z2cS1G9wI9YeFjrXDsrYacw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material-dark-base.css"
@@ -487,6 +535,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "22pb44itlf",
+      "Integrity": "mscmBJFsTrAe0H/SoknylPnukiQX2yfQ/zSnbR4B75k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material-dark-wcag.css"
@@ -506,6 +556,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "pblx1qaqft",
+      "Integrity": "y6x9nQqkv3mW+Dvmm6Pvh+h0ixHfY0RLzrX6ZlktoG4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material-wcag.css"
@@ -525,6 +577,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "io9hgf4guw",
+      "Integrity": "QjeUTF/UZuYkJT94HH80IsBa7M9o/S9L2nGrx03MZAI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\software.css"
@@ -544,6 +598,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "dpkuvjmxfo",
+      "Integrity": "UQ9ruUs3jq9UBRYJR9XjP4GZjI+kMluWhTk60t+GSVk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\software-base.css"
@@ -563,6 +619,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "m39zrm9flk",
+      "Integrity": "0ntJsNLRRZ1SX16+CZRFTldCCfyaOMxZt9FeE/itv3A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\software-dark.css"
@@ -582,6 +640,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "p5kq4xlp8l",
+      "Integrity": "c9/63jzER52bKWGlDe95QGzpPH0q3XtvGyE/9zRN8e4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\software-dark-base.css"
@@ -601,6 +661,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "557e8lceon",
+      "Integrity": "VyhJgq8po3mud6FSP2a9ENksqEZN5jW2kGxLQC+F154=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\software-dark-wcag.css"
@@ -620,6 +682,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "9fpk6led9e",
+      "Integrity": "tRcVAq9DGc0nyvTuxUpiBTY8PaxnC6deHLSE8Ri1PMg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\software-wcag.css"
@@ -639,6 +703,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "st78y6q1b2",
+      "Integrity": "YAzqeGvZTqyzmvKd1UNlPJql9b5Zdt7TUI/vVtGi96k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\standard.css"
@@ -658,6 +724,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "012lteedsq",
+      "Integrity": "hFK7RFbiyiwFSvX+O9ZgRMpk9TkQuIGrpKbC9PxGCOQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\standard-base.css"
@@ -677,6 +745,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "bbwx6kew4j",
+      "Integrity": "15dBrGuEq9M47mtVqP8mcW7G7/vb1e2H/93iqzXzGSo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\standard-dark.css"
@@ -696,6 +766,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "d7vsd4ygm8",
+      "Integrity": "+WkmBJ8o1AEnIu6tLoR+Ugy2hHtIbnWa3pw9d3k2k7M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\standard-dark-base.css"
@@ -715,6 +787,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "7bt2cgjiuc",
+      "Integrity": "HYNTnwNf3xj899KPdiKwmD1e5t3XRg9VaQgB1ZOvKeI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\standard-dark-wcag.css"
@@ -734,6 +808,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "kp0ueqs315",
+      "Integrity": "GFU2mt0A9T8j9YMwMQqIUmdziKNDuPppDCn2o37LV2E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\standard-wcag.css"
@@ -753,6 +829,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "mv86jbv18h",
+      "Integrity": "jl6yGniuOaLQTXd36jhE7+/dH86dwgPNpHgSvBiQxxM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\fonts\\MaterialSymbolsOutlined.woff2"
@@ -772,6 +850,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "tdgcpklreb",
+      "Integrity": "D4n6QkbzuJDYChkHTPMXLxJlSC/5uucOpe2kU+JCJRs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\fonts\\RobotoFlex.woff2"
@@ -791,6 +871,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "sw3iuqo2hf",
+      "Integrity": "tJWavAVpOS+HxsasYS+Q4/4BBNKDckGJt9i29hrzR9M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\fonts\\SourceSans3VF-Italic.ttf.woff2"
@@ -810,6 +892,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "nqmp3d2aoy",
+      "Integrity": "XxZWb3pA05szmtJr4VH6Whqx8MJXTHouYZdlWEoay9g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\fonts\\SourceSans3VF-Upright.ttf.woff2"
@@ -829,17 +913,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "y8xw9lzj8n",
+      "Integrity": "Un3PKsDl6bZZqol3h4pcTkJHBzMbdYskTYLPF8TbzzE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\Radzen.Blazor.js"
     },
     {
-      "Identity": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RealEstateApp.Presentation.UI.Client.styles.css",
+      "Identity": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RealEstateApp.Presentation.UI.Client.styles.css",
       "SourceId": "RealEstateApp.Presentation.UI.Client",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/RealEstateApp.Presentation.UI.Client",
-      "RelativePath": "RealEstateApp.Presentation.UI.Client.styles.css",
+      "RelativePath": "RealEstateApp.Presentation.UI.Client#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -848,17 +934,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "hzibk53ijb",
+      "Integrity": "I1Nl+O/EFJfk9lxbMLhYsigmP6npCfs2EoroihW6G/k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RealEstateApp.Presentation.UI.Client.styles.css"
+      "OriginalItemSpec": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RealEstateApp.Presentation.UI.Client.styles.css"
     },
     {
-      "Identity": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RealEstateApp.Presentation.UI.Client.bundle.scp.css",
+      "Identity": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RealEstateApp.Presentation.UI.Client.bundle.scp.css",
       "SourceId": "RealEstateApp.Presentation.UI.Client",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/RealEstateApp.Presentation.UI.Client",
-      "RelativePath": "RealEstateApp.Presentation.UI.Client.bundle.scp.css",
+      "RelativePath": "RealEstateApp.Presentation.UI.Client#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -867,256 +955,3107 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "hzibk53ijb",
+      "Integrity": "I1Nl+O/EFJfk9lxbMLhYsigmP6npCfs2EoroihW6G/k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RealEstateApp.Presentation.UI.Client.bundle.scp.css"
+      "OriginalItemSpec": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RealEstateApp.Presentation.UI.Client.bundle.scp.css"
     },
     {
-      "Identity": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "RealEstateApp.Presentation.UI.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
+      "ContentRoot": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
       "BasePath": "_content/RealEstateApp.Presentation.UI.Client",
-      "RelativePath": "css/bootstrap/bootstrap.min.css",
+      "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "RealEstateApp.Presentation.UI.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
+      "ContentRoot": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
       "BasePath": "_content/RealEstateApp.Presentation.UI.Client",
-      "RelativePath": "css/bootstrap/bootstrap.min.css.map",
+      "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "RealEstateApp.Presentation.UI.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
+      "ContentRoot": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
       "BasePath": "_content/RealEstateApp.Presentation.UI.Client",
-      "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "cmapd0fi15",
+      "Integrity": "BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "RealEstateApp.Presentation.UI.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
+      "ContentRoot": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
       "BasePath": "_content/RealEstateApp.Presentation.UI.Client",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.eot",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "0uw8dim9nl",
+      "Integrity": "OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "RealEstateApp.Presentation.UI.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
+      "ContentRoot": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
       "BasePath": "_content/RealEstateApp.Presentation.UI.Client",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.otf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "wk8x8xm0ah",
+      "Integrity": "sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "RealEstateApp.Presentation.UI.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
+      "ContentRoot": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
       "BasePath": "_content/RealEstateApp.Presentation.UI.Client",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "sjnzgf7e1h",
+      "Integrity": "+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "RealEstateApp.Presentation.UI.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
+      "ContentRoot": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
       "BasePath": "_content/RealEstateApp.Presentation.UI.Client",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ll5grcv8wv",
+      "Integrity": "p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "RealEstateApp.Presentation.UI.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
+      "ContentRoot": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
       "BasePath": "_content/RealEstateApp.Presentation.UI.Client",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.woff",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "h4d0pazwgy",
+      "Integrity": "cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "RealEstateApp.Presentation.UI.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
+      "ContentRoot": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
       "BasePath": "_content/RealEstateApp.Presentation.UI.Client",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "RelativePath": "css/open-iconic/FONT-LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "48tmkg660f",
+      "Integrity": "jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "RealEstateApp.Presentation.UI.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
+      "ContentRoot": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
       "BasePath": "_content/RealEstateApp.Presentation.UI.Client",
-      "RelativePath": "css/open-iconic/ICON-LICENSE",
+      "RelativePath": "css/open-iconic/ICON-LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "4dwjve0o0b",
+      "Integrity": "aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "RealEstateApp.Presentation.UI.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
+      "ContentRoot": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
       "BasePath": "_content/RealEstateApp.Presentation.UI.Client",
-      "RelativePath": "css/open-iconic/README.md",
+      "RelativePath": "css/open-iconic/README#[.{fingerprint}]?.md",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "5bzwdl5l6x",
+      "Integrity": "waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\site.css",
+      "Identity": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\site.css",
       "SourceId": "RealEstateApp.Presentation.UI.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
+      "ContentRoot": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
       "BasePath": "_content/RealEstateApp.Presentation.UI.Client",
-      "RelativePath": "css/site.css",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "zh9s866nx2",
+      "Integrity": "Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\favicon.png",
+      "Identity": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\favicon.png",
       "SourceId": "RealEstateApp.Presentation.UI.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
+      "ContentRoot": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\",
       "BasePath": "_content/RealEstateApp.Presentation.UI.Client",
-      "RelativePath": "favicon.png",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/Radzen.Blazor/css/dark.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "598045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n5mJiHCqZReGw04B0Ykh9ZId31vSUDgA03NHJO31/+s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:09:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n5mJiHCqZReGw04B0Ykh9ZId31vSUDgA03NHJO31/+s="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/dark-base.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\dark-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "595204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XEYNiFxu2WmfkLqjxzWK5KErMQmF4bPZQN9nAfR30fU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:09:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XEYNiFxu2WmfkLqjxzWK5KErMQmF4bPZQN9nAfR30fU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/dark-wcag.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\dark-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2648"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M9oCY0HEHaFPTMj7CLTxNBT7/8jUvcI3/3q27/kphek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:09:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M9oCY0HEHaFPTMj7CLTxNBT7/8jUvcI3/3q27/kphek="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/default.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\default.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "597708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aDvc5saBbVpx6tJy7vpzkWvcQ5fI7mLAevwY2LLypS0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:09:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aDvc5saBbVpx6tJy7vpzkWvcQ5fI7mLAevwY2LLypS0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/default-base.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\default-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "594867"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KRqy3Y/eGSwBXcy+SEX9BiKU8lf7WudyPrT4/D/kZGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KRqy3Y/eGSwBXcy+SEX9BiKU8lf7WudyPrT4/D/kZGo="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/default-wcag.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\default-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2589"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lYiMLG73UrqjeD3Xr0zwkygnPDSAQXeAo1554Yjqjkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lYiMLG73UrqjeD3Xr0zwkygnPDSAQXeAo1554Yjqjkc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/fluent.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\fluent.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "629982"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s6gEwhdwFuJkp2Yo+AHPR1LP1aqwltVSUvPgMWIMT9s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 08:33:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s6gEwhdwFuJkp2Yo+AHPR1LP1aqwltVSUvPgMWIMT9s="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/fluent-base.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\fluent-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "537632"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oCP3KDCJMxw6so9F9DCK85Cs7Qjwi9ENqNqa6YZMS54=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 08:33:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oCP3KDCJMxw6so9F9DCK85Cs7Qjwi9ENqNqa6YZMS54="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/fluent-dark.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\fluent-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "630119"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5yzGFPjiDcuQjscmZoH+bWz9X9IXeoueKENVO/Zh8u8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 08:33:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5yzGFPjiDcuQjscmZoH+bWz9X9IXeoueKENVO/Zh8u8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/fluent-dark-base.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\fluent-dark-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "537781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h6zopr1GF2N9Qps3jjrwupasO3LYyzJDsbVxYaS5Hfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 08:33:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h6zopr1GF2N9Qps3jjrwupasO3LYyzJDsbVxYaS5Hfs="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/humanistic.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\humanistic.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "597672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qGbM8UkQnda2Gv8i0eP50ion8WLnXUEHuAbSDlQZI9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:09:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qGbM8UkQnda2Gv8i0eP50ion8WLnXUEHuAbSDlQZI9o="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/humanistic-base.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\humanistic-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "594831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e3lXv5cBz4KuVVCiGRFOXKbSU+SJRL1cme4REVcXTSI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:09:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e3lXv5cBz4KuVVCiGRFOXKbSU+SJRL1cme4REVcXTSI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/humanistic-dark.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\humanistic-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "598010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3X90R+D06zHXUhsLM9esWO80ghMijbRjx3JrsLpb04M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:09:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3X90R+D06zHXUhsLM9esWO80ghMijbRjx3JrsLpb04M="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/humanistic-dark-base.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\humanistic-dark-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "595169"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EYFCU636Os5818ENuXrstgrvNBeEdnvnRl0FDDgfQws=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:09:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EYFCU636Os5818ENuXrstgrvNBeEdnvnRl0FDDgfQws="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/humanistic-dark-wcag.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\humanistic-dark-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wsCFo85Tm++Hir55ycJcA850vMHr3ejT4YmaO32HaNc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:09:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wsCFo85Tm++Hir55ycJcA850vMHr3ejT4YmaO32HaNc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/humanistic-wcag.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\humanistic-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J8kJYxpBFMrMjHMBSdDlq1lYqyntxOrDZ8AW5FrxH8U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:09:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J8kJYxpBFMrMjHMBSdDlq1lYqyntxOrDZ8AW5FrxH8U="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "606659"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qCg4ni5r2c6nC7CcpCAOWT9ZEiRzncf0SPo/pyKCkUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:10:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qCg4ni5r2c6nC7CcpCAOWT9ZEiRzncf0SPo/pyKCkUg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material3.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material3.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "642437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HX+hmkIc+4Y8lr6muWB643nIfe4TnC75s7WMrExRbJg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 08:33:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HX+hmkIc+4Y8lr6muWB643nIfe4TnC75s7WMrExRbJg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material3-base.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material3-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "550360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ELNcB+q99nA7Zwpk/XflKV6pZgA8XjtrWz6S3wBGkVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 08:33:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ELNcB+q99nA7Zwpk/XflKV6pZgA8XjtrWz6S3wBGkVg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material3-dark.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material3-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "642362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7jFfL5KpcTVaAaAEhWoN8LWtj+6ZLVaIVVyTWOj48Vg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 08:33:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7jFfL5KpcTVaAaAEhWoN8LWtj+6ZLVaIVVyTWOj48Vg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material3-dark-base.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material3-dark-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "550278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ifXsS3EEF8MVsk1h3BGZ0uXXjF86yaSAwbnNFKqkAIg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Nov 2023 08:33:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ifXsS3EEF8MVsk1h3BGZ0uXXjF86yaSAwbnNFKqkAIg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material-base.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "603818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aV6XNLgHnH8CUJMdfQwLBjd3natJCibJoUdCLk4g+IM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:09:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aV6XNLgHnH8CUJMdfQwLBjd3natJCibJoUdCLk4g+IM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material-dark.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "606285"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GszAwFwn2gIyFSK+wlKbBDHlMqoejc0Szpq7ZK02x3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:10:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GszAwFwn2gIyFSK+wlKbBDHlMqoejc0Szpq7ZK02x3k="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material-dark-base.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material-dark-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "603444"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r6zg4cqnmRwjt8T4TjX4z2cS1G9wI9YeFjrXDsrYacw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:09:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r6zg4cqnmRwjt8T4TjX4z2cS1G9wI9YeFjrXDsrYacw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material-dark-wcag.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material-dark-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mscmBJFsTrAe0H/SoknylPnukiQX2yfQ/zSnbR4B75k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:09:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mscmBJFsTrAe0H/SoknylPnukiQX2yfQ/zSnbR4B75k="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/material-wcag.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\material-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2590"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y6x9nQqkv3mW+Dvmm6Pvh+h0ixHfY0RLzrX6ZlktoG4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:10:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y6x9nQqkv3mW+Dvmm6Pvh+h0ixHfY0RLzrX6ZlktoG4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/software.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\software.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "597707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QjeUTF/UZuYkJT94HH80IsBa7M9o/S9L2nGrx03MZAI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:10:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QjeUTF/UZuYkJT94HH80IsBa7M9o/S9L2nGrx03MZAI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/software-base.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\software-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "594866"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UQ9ruUs3jq9UBRYJR9XjP4GZjI+kMluWhTk60t+GSVk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:10:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UQ9ruUs3jq9UBRYJR9XjP4GZjI+kMluWhTk60t+GSVk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/software-dark.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\software-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "598014"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0ntJsNLRRZ1SX16+CZRFTldCCfyaOMxZt9FeE/itv3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:10:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0ntJsNLRRZ1SX16+CZRFTldCCfyaOMxZt9FeE/itv3A="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/software-dark-base.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\software-dark-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "595173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c9/63jzER52bKWGlDe95QGzpPH0q3XtvGyE/9zRN8e4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:10:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c9/63jzER52bKWGlDe95QGzpPH0q3XtvGyE/9zRN8e4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/software-dark-wcag.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\software-dark-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VyhJgq8po3mud6FSP2a9ENksqEZN5jW2kGxLQC+F154=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:10:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VyhJgq8po3mud6FSP2a9ENksqEZN5jW2kGxLQC+F154="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/software-wcag.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\software-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2650"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tRcVAq9DGc0nyvTuxUpiBTY8PaxnC6deHLSE8Ri1PMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:10:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tRcVAq9DGc0nyvTuxUpiBTY8PaxnC6deHLSE8Ri1PMg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/standard.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\standard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "604176"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YAzqeGvZTqyzmvKd1UNlPJql9b5Zdt7TUI/vVtGi96k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:10:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YAzqeGvZTqyzmvKd1UNlPJql9b5Zdt7TUI/vVtGi96k="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/standard-base.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\standard-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "601335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hFK7RFbiyiwFSvX+O9ZgRMpk9TkQuIGrpKbC9PxGCOQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:10:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hFK7RFbiyiwFSvX+O9ZgRMpk9TkQuIGrpKbC9PxGCOQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/standard-dark.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\standard-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "600936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"15dBrGuEq9M47mtVqP8mcW7G7/vb1e2H/93iqzXzGSo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:10:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-15dBrGuEq9M47mtVqP8mcW7G7/vb1e2H/93iqzXzGSo="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/standard-dark-base.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\standard-dark-base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "603777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+WkmBJ8o1AEnIu6tLoR+Ugy2hHtIbnWa3pw9d3k2k7M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:10:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+WkmBJ8o1AEnIu6tLoR+Ugy2hHtIbnWa3pw9d3k2k7M="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/standard-dark-wcag.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\standard-dark-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HYNTnwNf3xj899KPdiKwmD1e5t3XRg9VaQgB1ZOvKeI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:10:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HYNTnwNf3xj899KPdiKwmD1e5t3XRg9VaQgB1ZOvKeI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/css/standard-wcag.css",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\css\\standard-wcag.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GFU2mt0A9T8j9YMwMQqIUmdziKNDuPppDCn2o37LV2E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:10:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GFU2mt0A9T8j9YMwMQqIUmdziKNDuPppDCn2o37LV2E="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/fonts/MaterialSymbolsOutlined.woff2",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\fonts\\MaterialSymbolsOutlined.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3208232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jl6yGniuOaLQTXd36jhE7+/dH86dwgPNpHgSvBiQxxM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 19 Jul 2024 06:34:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jl6yGniuOaLQTXd36jhE7+/dH86dwgPNpHgSvBiQxxM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/fonts/RobotoFlex.woff2",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\fonts\\RobotoFlex.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "747316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D4n6QkbzuJDYChkHTPMXLxJlSC/5uucOpe2kU+JCJRs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 19 Jul 2024 06:34:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D4n6QkbzuJDYChkHTPMXLxJlSC/5uucOpe2kU+JCJRs="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/fonts/SourceSans3VF-Italic.ttf.woff2",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\fonts\\SourceSans3VF-Italic.ttf.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "137996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tJWavAVpOS+HxsasYS+Q4/4BBNKDckGJt9i29hrzR9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 19 Jul 2024 06:34:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tJWavAVpOS+HxsasYS+Q4/4BBNKDckGJt9i29hrzR9M="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/fonts/SourceSans3VF-Upright.ttf.woff2",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\fonts\\SourceSans3VF-Upright.ttf.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "170188"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XxZWb3pA05szmtJr4VH6Whqx8MJXTHouYZdlWEoay9g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 19 Jul 2024 06:34:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XxZWb3pA05szmtJr4VH6Whqx8MJXTHouYZdlWEoay9g="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Radzen.Blazor/Radzen.Blazor.js",
+      "AssetFile": "C:\\Users\\europe stock\\.nuget\\packages\\radzen.blazor\\5.0.0\\staticwebassets\\Radzen.Blazor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82458"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Un3PKsDl6bZZqol3h4pcTkJHBzMbdYskTYLPF8TbzzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Jul 2024 06:04:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Un3PKsDl6bZZqol3h4pcTkJHBzMbdYskTYLPF8TbzzE="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cmapd0fi15"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.0uw8dim9nl.eot",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0uw8dim9nl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.eot"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.eot",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.h4d0pazwgy.woff",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h4d0pazwgy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.woff"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.ll5grcv8wv.ttf",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ll5grcv8wv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.otf",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.sjnzgf7e1h.svg",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sjnzgf7e1h"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.svg",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.ttf",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wk8x8xm0ah"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.woff",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/FONT-LICENSE",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4103"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/FONT-LICENSE.48tmkg660f",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4103"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "48tmkg660f"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/FONT-LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/ICON-LICENSE",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/ICON-LICENSE.4dwjve0o0b",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4dwjve0o0b"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/ICON-LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/README.5bzwdl5l6x.md",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5bzwdl5l6x"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/README.md"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/README.md",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\open-iconic\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Oct 2024 14:35:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zh9s866nx2.css",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Oct 2024 14:35:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zh9s866nx2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Sep 2024 18:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "RealEstateApp.Presentation.UI.Client.bundle.scp.css",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RealEstateApp.Presentation.UI.Client.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I1Nl+O/EFJfk9lxbMLhYsigmP6npCfs2EoroihW6G/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Mar 2025 14:14:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I1Nl+O/EFJfk9lxbMLhYsigmP6npCfs2EoroihW6G/k="
+        }
+      ]
+    },
+    {
+      "Route": "RealEstateApp.Presentation.UI.Client.hzibk53ijb.bundle.scp.css",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RealEstateApp.Presentation.UI.Client.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I1Nl+O/EFJfk9lxbMLhYsigmP6npCfs2EoroihW6G/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Mar 2025 14:14:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hzibk53ijb"
+        },
+        {
+          "Name": "label",
+          "Value": "RealEstateApp.Presentation.UI.Client.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I1Nl+O/EFJfk9lxbMLhYsigmP6npCfs2EoroihW6G/k="
+        }
+      ]
+    },
+    {
+      "Route": "RealEstateApp.Presentation.UI.Client.hzibk53ijb.styles.css",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RealEstateApp.Presentation.UI.Client.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I1Nl+O/EFJfk9lxbMLhYsigmP6npCfs2EoroihW6G/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Mar 2025 14:14:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hzibk53ijb"
+        },
+        {
+          "Name": "label",
+          "Value": "RealEstateApp.Presentation.UI.Client.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I1Nl+O/EFJfk9lxbMLhYsigmP6npCfs2EoroihW6G/k="
+        }
+      ]
+    },
+    {
+      "Route": "RealEstateApp.Presentation.UI.Client.styles.css",
+      "AssetFile": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RealEstateApp.Presentation.UI.Client.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I1Nl+O/EFJfk9lxbMLhYsigmP6npCfs2EoroihW6G/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Mar 2025 14:14:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I1Nl+O/EFJfk9lxbMLhYsigmP6npCfs2EoroihW6G/k="
+        }
+      ]
     }
   ]
 }

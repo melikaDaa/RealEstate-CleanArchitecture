@@ -17,5 +17,6 @@ namespace RealEstateApp.Application.Interfaces
         Task<bool> AssignRoleAsync(string userId, string roleName);
         Task<List<string>> GetUserRolesAsync(string userId);
          Task<List<UserDetailsDto>> GetAllUsersAsync();
+        Task<List<string>> GetAllRolesAsync();
     }
 }

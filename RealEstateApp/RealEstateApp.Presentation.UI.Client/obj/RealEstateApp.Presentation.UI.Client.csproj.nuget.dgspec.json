@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj": {}
+    "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj": {}
   },
   "projects": {
-    "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj": {
+    "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj",
+        "projectUniqueName": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj",
         "projectName": "RealEstateApp.Application",
-        "projectPath": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj",
+        "projectPath": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj",
         "packagesPath": "C:\\Users\\europe stock\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Application\\obj\\",
+        "outputPath": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\europe stock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -43,7 +45,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -82,24 +85,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Domain\\RealEstateApp.Domain.csproj": {
+    "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Domain\\RealEstateApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Domain\\RealEstateApp.Domain.csproj",
+        "projectUniqueName": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Domain\\RealEstateApp.Domain.csproj",
         "projectName": "RealEstateApp.Domain",
-        "projectPath": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Domain\\RealEstateApp.Domain.csproj",
+        "projectPath": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Domain\\RealEstateApp.Domain.csproj",
         "packagesPath": "C:\\Users\\europe stock\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Domain\\obj\\",
+        "outputPath": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\europe stock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -125,7 +130,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -146,24 +152,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Infrastructure\\RealEstateApp.Infrastructure.csproj": {
+    "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Infrastructure\\RealEstateApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Infrastructure\\RealEstateApp.Infrastructure.csproj",
+        "projectUniqueName": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Infrastructure\\RealEstateApp.Infrastructure.csproj",
         "projectName": "RealEstateApp.Infrastructure",
-        "projectPath": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Infrastructure\\RealEstateApp.Infrastructure.csproj",
+        "projectPath": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Infrastructure\\RealEstateApp.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\europe stock\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Infrastructure\\obj\\",
+        "outputPath": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\europe stock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -178,11 +186,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj": {
-                "projectPath": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj"
+              "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj": {
+                "projectPath": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Application\\RealEstateApp.Application.csproj"
               },
-              "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Domain\\RealEstateApp.Domain.csproj": {
-                "projectPath": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Domain\\RealEstateApp.Domain.csproj"
+              "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Domain\\RealEstateApp.Domain.csproj": {
+                "projectPath": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Domain\\RealEstateApp.Domain.csproj"
               }
             }
           }
@@ -196,7 +204,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -243,24 +252,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj": {
+    "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj",
+        "projectUniqueName": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj",
         "projectName": "RealEstateApp.Presentation.UI.Client",
-        "projectPath": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj",
+        "projectPath": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj",
         "packagesPath": "C:\\Users\\europe stock\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\obj\\",
+        "outputPath": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\europe stock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -275,8 +286,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Infrastructure\\RealEstateApp.Infrastructure.csproj": {
-                "projectPath": "D:\\New folder\\RealestateProject\\RealEstateApp\\RealEstateApp.Infrastructure\\RealEstateApp.Infrastructure.csproj"
+              "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Infrastructure\\RealEstateApp.Infrastructure.csproj": {
+                "projectPath": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Infrastructure\\RealEstateApp.Infrastructure.csproj"
               }
             }
           }
@@ -290,7 +301,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -332,7 +344,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

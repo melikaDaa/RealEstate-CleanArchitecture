@@ -116,6 +116,10 @@ public class UserService : IUserService
 
         return userDtos;
     }
+    public async Task<List<string>> GetAllRolesAsync()
+    {
+        return _roleManager.Roles.Select(r => r.Name).ToList();
+    }
 
     public async Task<bool> AssignRoleAsync(string userId, string roleName)
     {

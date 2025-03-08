@@ -373,6 +373,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "RealEstateApp.Presentation.WebApi.Controllers.UserController",
+    "Method": "GetAllRoles",
+    "RelativePath": "api/User/roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "RealEstateApp.Presentation.WebApi.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
@@ -390,6 +400,7 @@
         ],
         "StatusCode": 200
       }
-    ]
+    ],
+    "EndpointName": "GetWeatherForecast"
   }
 ]

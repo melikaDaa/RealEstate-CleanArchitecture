@@ -91,6 +91,22 @@ namespace RealEstateApp.Presentation.WebApi.Controllers
 
             return Ok(users);
         }
+        /// <summary>
+        /// دریافت تمام نقش‌ها
+        /// </summary>
+        [HttpGet("roles")]
+      // تنها مدیران می‌توانند تمام نقش‌ها را مشاهده کنند
+        public async Task<IActionResult> GetAllRoles()
+        {
+            var roles = await _userService.GetAllRolesAsync();
+
+            if (roles == null || !roles.Any())
+            {
+                return NotFound("هیچ نقشی یافت نشد.");
+            }
+
+            return Ok(roles);
+        }
 
 
         /// <summary>

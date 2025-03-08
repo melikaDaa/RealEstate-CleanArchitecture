@@ -10,3 +10,16 @@ D:\New folder\RealestateProject\RealEstateApp\RealEstateApp.Application\obj\Debu
 D:\New folder\RealestateProject\RealEstateApp\RealEstateApp.Application\obj\Debug\net8.0\RealEstateApp.Application.pdb
 D:\New folder\RealestateProject\RealEstateApp\RealEstateApp.Application\obj\Debug\net8.0\ref\RealEstateApp.Application.dll
 D:\New folder\RealestateProject\RealEstateApp\RealEstateApp.Application\obj\Debug\net8.0\RealEstateApp.Application.csproj.AssemblyReference.cache
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Application\bin\Debug\net8.0\RealEstateApp.Application.deps.json
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Application\bin\Debug\net8.0\RealEstateApp.Application.dll
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Application\bin\Debug\net8.0\RealEstateApp.Application.pdb
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Application\obj\Debug\net8.0\RealEstateApp.Application.csproj.AssemblyReference.cache
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Application\obj\Debug\net8.0\RealEstateApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Application\obj\Debug\net8.0\RealEstateApp.Application.AssemblyInfoInputs.cache
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Application\obj\Debug\net8.0\RealEstateApp.Application.AssemblyInfo.cs
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Application\obj\Debug\net8.0\RealEstateApp.Application.csproj.CoreCompileInputs.cache
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Application\obj\Debug\net8.0\RealEstateApp.Application.sourcelink.json
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Application\obj\Debug\net8.0\RealEstateApp.Application.dll
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Application\obj\Debug\net8.0\refint\RealEstateApp.Application.dll
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Application\obj\Debug\net8.0\RealEstateApp.Application.pdb
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Application\obj\Debug\net8.0\ref\RealEstateApp.Application.dll
