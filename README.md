@@ -76,6 +76,8 @@ This will start the application on `https://localhost:5001`.
 
 The project is divided into several key folders to separate concerns:
 
+## 📂 Project Structure
+```
 RealEstate-CleanArchitecture/
 │── .gitignore
 │── README.md
@@ -87,8 +89,9 @@ RealEstate-CleanArchitecture/
 │   ├── RealEstateApp.Persistence/      # Data Persistence Layer (EF Core, Repositories, Migrations)
 │   ├── RealEstateApp.UI/               # UI Layer (Blazor Frontend)
 │   ├── RealEstateApp.sln               # Solution File for the project
+```
 
----
+###
 
 ### **Usage**
 
