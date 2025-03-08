@@ -76,15 +76,17 @@ This will start the application on `https://localhost:5001`.
 
 The project is divided into several key folders to separate concerns:
 
-```
-├── AdminPanel/            # Code for the Admin Panel UI (Blazor)
-├── BlazorUI/              # Code for the User Interface (Blazor)
-├── WebApi/                # Code for the Web API (Backend)
-├── Data/                  # Database models and context classes
-├── Migrations/            # Entity Framework Core migrations
-├── README.md              # Project documentation
-└── appsettings.json       # Configuration settings (e.g., connection strings)
-```
+RealEstate-CleanArchitecture/
+│── .gitignore
+│── README.md
+│── RealEstateApp/                     # Main project folder
+│   ├── RealEstateApp.API/              # Web API Layer (Entry point for API)
+│   ├── RealEstateApp.Application/      # Application Layer (Business Logic, Services, Interfaces)
+│   ├── RealEstateApp.Domain/           # Domain Layer (Entities, Aggregates, Core Business Rules)
+│   ├── RealEstateApp.Infrastructure/   # Infrastructure Layer (Database, External Services)
+│   ├── RealEstateApp.Persistence/      # Data Persistence Layer (EF Core, Repositories, Migrations)
+│   ├── RealEstateApp.UI/               # UI Layer (Blazor Frontend)
+│   ├── RealEstateApp.sln               # Solution File for the project
 
 ---
 
