@@ -107,6 +107,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For any inquiries, issues, or suggestions, please feel free to open an issue on the [GitHub Issues page](https://github.com/melikaDaa/RealEstate-CleanArchitecture/issues). You can also contact me directly at 
 
----
-
-This `README.md` file should provide a more professional and clear description of your project, along with detailed setup instructions and contributing guidelines. You can paste it into your `README.md` file on GitHub to provide clear documentation for anyone interacting with your project.
