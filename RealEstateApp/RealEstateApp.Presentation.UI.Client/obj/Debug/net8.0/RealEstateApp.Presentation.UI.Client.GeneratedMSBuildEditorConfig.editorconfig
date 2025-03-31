@@ -68,6 +68,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxSb2xlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/New folder/git source/RealEstateProject/RealEstateApp/RealEstateApp.Presentation.UI.Client/Shared/Errors/CustomError.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVycm9yc1xDdXN0b21FcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/New folder/git source/RealEstateProject/RealEstateApp/RealEstateApp.Presentation.UI.Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,17 +1,44 @@
 ﻿<CascadingAuthenticationState>
-    <Router AppAssembly="@typeof(App).Assembly">
-        <Found Context="routeData">
-            <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@GetLayout(routeData.PageType.FullName)" />
-            <FocusOnNavigate RouteData="@routeData" Selector="h1" />
-        </Found>
-        <NotFound>
-            <PageTitle>Not found</PageTitle>
-            <LayoutView Layout="@typeof(MainLayout)">
-                <p role="alert">Sorry, there's nothing at this address.</p>
-            </LayoutView>
-        </NotFound>
-    </Router>
+    <ErrorBoundary>
+        <Router AppAssembly="@typeof(App).Assembly">
+            <Found Context="routeData">
+                <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@GetLayout(routeData.PageType.FullName)" />
+                <FocusOnNavigate RouteData="@routeData" Selector="h1" />
+            </Found>
+            <NotFound>
+                <PageTitle>صفحه پیدا نشد</PageTitle>
+                <LayoutView Layout="@typeof(MainLayout)">
+                    <div class="not-found-container">
+                        <h2 class="text-danger">❌ صفحه مورد نظر یافت نشد!</h2>
+                        <p role="alert">متأسفانه آدرسی که وارد کرده‌اید وجود ندارد.</p>
+                        <a href="/" class="btn btn-primary">بازگشت به صفحه اصلی</a>
+                    </div>
+                </LayoutView>
+            </NotFound>
+        </Router>
+    </ErrorBoundary>
 </CascadingAuthenticationState>
+
+<style>
+    .not-found-container {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+        .not-found-container h2 {
+            color: red;
+        }
+
+        .not-found-container p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .not-found-container .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+</style>
 
 @code {
     private Type GetLayout(string pageName)

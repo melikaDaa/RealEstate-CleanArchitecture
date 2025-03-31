@@ -12,6 +12,7 @@ using RealEstateApp.Infrastructure.Context;
 using RealEstateApp.Infrastructure.Identity.Entities;
 using RealEstateApp.Infrastructure.Identity.Seeds;
 using RealEstateApp.Presentation.UI.Client.Data;
+using RealEstateApp.Presentation.UI.Client.Errors;
 using System.Text;
 
 namespace RealEstateApp.Presentation.UI.Client
@@ -30,6 +31,8 @@ namespace RealEstateApp.Presentation.UI.Client
 
             builder.Services.AddScoped<CategoryService>();
             builder.Services.AddScoped<UserService>();
+            builder.Services.AddScoped<GlobalErrorHandler>();
+
 
             // ÇÖÇÝå 
             builder.Services.AddDbContext<ApplicationDbContext>(options =>

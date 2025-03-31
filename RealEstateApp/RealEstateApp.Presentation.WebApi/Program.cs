@@ -17,6 +17,7 @@ using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.AspNetCore.Mvc;
+using RealEstateApp.Presentation.WebApi.Middlewares;
 
 namespace RealEstateApp.Presentation.WebApi
 {
@@ -53,6 +54,7 @@ namespace RealEstateApp.Presentation.WebApi
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+        
 
             // پیکربندی JWT
             builder.Services.AddAuthentication(options =>
@@ -90,7 +92,7 @@ namespace RealEstateApp.Presentation.WebApi
 
 
             var app = builder.Build();
-
+        
             // Seed کردن کاربر پیش‌فرض
             using (var scope = app.Services.CreateScope())
             {
@@ -98,18 +100,20 @@ namespace RealEstateApp.Presentation.WebApi
                 var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
                 await DefaultAdminUser.SeedAsync(userManager, roleManager);
             }
-
+            app.UseMiddleware<ExceptionHandlingMiddleware>();
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+          
 
             app.UseHttpsRedirection();
+        
             app.UseAuthentication(); // نیاز به فراخوانی UseAuthentication برای احراز هویت
             app.UseAuthorization();
-
+           
             app.MapControllers();
 
             app.Run();

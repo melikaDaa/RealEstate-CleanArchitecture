@@ -1,14 +1,17 @@
 ﻿using RealEstateApp.Application.DTOs;
+using RealEstateApp.Presentation.UI.Client.Errors;
 
 namespace RealEstateApp.Presentation.UI.Client.Data
 {
     public class CategoryService
     {
         private readonly HttpClient _httpClient;
+        private readonly GlobalErrorHandler _globalErrorHandler;
 
-        public CategoryService(HttpClient httpClient)
+        public CategoryService(HttpClient httpClient, GlobalErrorHandler globalErrorHandler)
         {
             _httpClient = httpClient;
+            _globalErrorHandler = globalErrorHandler;
         }
 
         public async Task<List<CategoryDto>> GetAllCategoriesAsync()
@@ -18,7 +21,9 @@ namespace RealEstateApp.Presentation.UI.Client.Data
 
         public async Task<CategoryDto> GetCategoryByIdAsync(int id)
         {
-            return await _httpClient.GetFromJsonAsync<CategoryDto>($"https://localhost:7044/api/categories/{id}");
+            return await _globalErrorHandler.HandleRequestAsync<CategoryDto>(() =>
+                _httpClient.GetAsync("https://localhost:7044/api/categories/{id}")
+            );
         }
 
         public async Task AddCategoryAsync(CategoryDto categoryDto)

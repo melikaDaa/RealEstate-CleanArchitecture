@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RealEstateApp.Application.DTOs;
 using RealEstateApp.Application.Interfaces;
+using RealEstateApp.Presentation.WebApi.Exceptions;
 
 namespace RealEstateApp.Presentation.API.Controllers
 {
@@ -27,16 +28,10 @@ namespace RealEstateApp.Presentation.API.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<CategoryDto>> GetCategoryById(int id)
         {
-            try
-            {
-                var category = await _categoryService.GetCategoryByIdAsync(id);
-                return Ok(category);
-            }
-            catch (KeyNotFoundException)
-            {
-                return NotFound();
-            }
+            var category = await _categoryService.GetCategoryByIdAsync(id);
+            return Ok(category);
         }
+
 
         // POST: api/v1/categories
         [HttpPost]
@@ -65,15 +60,20 @@ namespace RealEstateApp.Presentation.API.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteCategory(int id)
         {
-            try
-            {
-                await _categoryService.DeleteCategoryAsync(id);
-                return NoContent();
-            }
-            catch (KeyNotFoundException)
-            {
-                return NotFound();
-            }
+            await _categoryService.DeleteCategoryAsync(id);
+            return NoContent();
         }
+
+        [HttpGet("test-error")]
+        public IActionResult TestError()
+        {
+            throw new Exception("این یک خطای تستی است.");
+        }
+        [HttpGet("test-notfound")]
+        public IActionResult TestNotFound()
+        {
+            throw new NotFoundException("ملک مورد نظر یافت نشد.");
+        }
+
     }
 }

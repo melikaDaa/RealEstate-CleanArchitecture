@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7CB68B8E-5393-4558-A997-721B52D4CF4E}|RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj|d:\\new folder\\git source\\realestateproject\\realestateapp\\realestateapp.presentation.ui.client\\pages\\user\\roles.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7CB68B8E-5393-4558-A997-721B52D4CF4E}|RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj|solutionrelative:realestateapp.presentation.ui.client\\pages\\user\\roles.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7CB68B8E-5393-4558-A997-721B52D4CF4E}|RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj|d:\\new folder\\git source\\realestateproject\\realestateapp\\realestateapp.presentation.ui.client\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CB68B8E-5393-4558-A997-721B52D4CF4E}|RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj|solutionrelative:realestateapp.presentation.ui.client\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CB68B8E-5393-4558-A997-721B52D4CF4E}|RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj|d:\\new folder\\git source\\realestateproject\\realestateapp\\realestateapp.presentation.ui.client\\pages\\category\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7CB68B8E-5393-4558-A997-721B52D4CF4E}|RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj|solutionrelative:realestateapp.presentation.ui.client\\pages\\category\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7CB68B8E-5393-4558-A997-721B52D4CF4E}|RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj|d:\\new folder\\git source\\realestateproject\\realestateapp\\realestateapp.presentation.ui.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CB68B8E-5393-4558-A997-721B52D4CF4E}|RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj|solutionrelative:realestateapp.presentation.ui.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Roles.razor",
-              "DocumentMoniker": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\Pages\\User\\Roles.razor",
-              "RelativeDocumentMoniker": "RealEstateApp.Presentation.UI.Client\\Pages\\User\\Roles.razor",
-              "ToolTip": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\Pages\\User\\Roles.razor",
-              "RelativeToolTip": "RealEstateApp.Presentation.UI.Client\\Pages\\User\\Roles.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\App.razor",
+              "RelativeDocumentMoniker": "RealEstateApp.Presentation.UI.Client\\App.razor",
+              "ToolTip": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\App.razor",
+              "RelativeToolTip": "RealEstateApp.Presentation.UI.Client\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-08T15:38:10.829Z",
+              "WhenOpened": "2025-03-31T15:09:23.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.razor",
-              "DocumentMoniker": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\Pages\\Category\\Index.razor",
-              "RelativeDocumentMoniker": "RealEstateApp.Presentation.UI.Client\\Pages\\Category\\Index.razor",
-              "ToolTip": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\Pages\\Category\\Index.razor",
-              "RelativeToolTip": "RealEstateApp.Presentation.UI.Client\\Pages\\Category\\Index.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "RealEstateApp.Presentation.UI.Client\\Shared\\MainLayout.razor",
+              "ToolTip": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "RealEstateApp.Presentation.UI.Client\\Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-08T15:45:47.93Z",
+              "WhenOpened": "2025-03-31T15:04:21.842Z",
               "EditorCaption": ""
             }
           ]

@@ -27,6 +27,7 @@ namespace RealEstateApp.Presentation.WebApi.Controllers
             var estates = await _estateService.GetAllEstatesAsync();
             return Ok(estates);
         }
+    
 
         // Add a new estate
         [HttpPost]

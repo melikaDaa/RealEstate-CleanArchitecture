@@ -1,0 +1,86 @@
+﻿@inherits ErrorBoundaryBase
+
+@if (CurrentException is not null)
+{
+    <div class="error-container">
+        <h2>🚨 یک خطا رخ داده است!</h2>
+        <p>متأسفیم، مشکلی در پردازش درخواست شما پیش آمده است.</p>
+
+        @if (ShowDetails)
+        {
+            <details class="error-details">
+                <summary>مشاهده جزئیات خطا</summary>
+                <pre>@CurrentException.ToString()</pre>
+            </details>
+        }
+
+        <div class="error-actions">
+            <button class="btn btn-primary" @onclick="Recover">🔄 تلاش مجدد</button>
+            <button class="btn btn-danger" @onclick="ToggleDetails">📜 نمایش جزئیات</button>
+        </div>
+    </div>
+}
+
+@code {
+    private bool ShowDetails { get; set; } = false;
+
+    private void ToggleDetails()
+    {
+        ShowDetails = !ShowDetails;
+    }
+
+    protected override Task OnErrorAsync(Exception exception)
+    {
+        // می‌توان اینجا لاگ‌گیری کرد یا خطا را به سرور ارسال کرد
+        Console.WriteLine($"Error: {exception.Message}");
+        return Task.CompletedTask;
+    }
+}
+
+<style>
+    .error-container {
+        text-align: center;
+        margin-top: 50px;
+        padding: 25px;
+        background: #ffe6e6;
+        border: 1px solid #ff5f5f;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.2);
+    }
+
+        .error-container h2 {
+            color: darkred;
+            margin-bottom: 10px;
+        }
+
+        .error-container p {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+    .error-actions {
+        margin-top: 20px;
+    }
+
+        .error-actions .btn {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+    .error-details {
+        margin-top: 15px;
+        text-align: left;
+        background: #f8d7da;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 14px;
+        overflow-x: auto;
+    }
+
+        .error-details pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+</style>

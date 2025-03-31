@@ -99,6 +99,26 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "RealEstateApp.Presentation.API.Controllers.CategoriesController",
+    "Method": "TestError",
+    "RelativePath": "api/Categories/test-error",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstateApp.Presentation.API.Controllers.CategoriesController",
+    "Method": "TestNotFound",
+    "RelativePath": "api/Categories/test-notfound",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "RealEstateApp.Presentation.WebApi.Controllers.EstateController",
     "Method": "GetAllEstates",
     "RelativePath": "api/Estate",
