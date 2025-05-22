@@ -119,6 +119,26 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "RealEstateApp.Presentation.WebApi.Controllers.DashboardController",
+    "Method": "GetStats",
+    "RelativePath": "api/Dashboard/stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "RealEstateApp.Application.DTOs.StatsDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "RealEstateApp.Presentation.WebApi.Controllers.EstateController",
     "Method": "GetAllEstates",
     "RelativePath": "api/Estate",

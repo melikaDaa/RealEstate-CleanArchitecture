@@ -49,6 +49,7 @@ namespace RealEstateApp.Presentation.WebApi
             builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddScoped<IEstateService, EstateService>();
             builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<IDashboardService, DashboardService>();
 
             // ثبت سایر سرویس‌ها
             builder.Services.AddControllers();

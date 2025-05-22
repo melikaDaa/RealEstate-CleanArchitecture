@@ -1,0 +1,64 @@
+﻿@page "/dashboard"
+@inject HttpClient Http
+@layout MainLayout
+
+<h2 class="text-2xl font-bold mb-4">داشبورد مدیریت</h2>
+
+<RadzenRow>
+    <RadzenColumn Width="33%">
+        <RadzenCard Style="background-color: #1976d2; color: white; padding: 24px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            <h4 class="text-lg font-semibold mb-2">تعداد کل املاک</h4>
+            <p class="text-2xl font-bold">@stats?.TotalEstates</p>
+        </RadzenCard>
+    </RadzenColumn>
+    <RadzenColumn Width="33%">
+        <RadzenCard Style="background-color: #d81b60; color: white; padding: 24px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            <h4 class="text-lg font-semibold mb-2">املاک در انتظار تأیید</h4>
+            <p class="text-2xl font-bold">@stats?.PendingEstates</p>
+        </RadzenCard>
+    </RadzenColumn>
+    <RadzenColumn Width="33%">
+        <RadzenCard Style="background-color: #43a047; color: white; padding: 24px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            <h4 class="text-lg font-semibold mb-2">تعداد کاربران</h4>
+            <p class="text-2xl font-bold">@stats?.TotalUsers</p>
+        </RadzenCard>
+    </RadzenColumn>
+</RadzenRow>
+
+<h3 class="text-xl font-semibold mt-8 mb-4">آمار کلی سیستم</h3>
+
+<RadzenChart Style="height: 400px;">
+    <RadzenColumnSeries Data="@chartData" CategoryProperty="Label" ValueProperty="Value" Title="آمار کلی" />
+    <RadzenCategoryAxis Padding="20" />
+    <RadzenValueAxis />
+</RadzenChart>
+
+@code {
+    StatsDto? stats;
+    List<ChartItem> chartData = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        stats = await Http.GetFromJsonAsync<StatsDto>("https://localhost:7044/api/dashboard/stats");
+
+        chartData = new List<ChartItem>
+        {
+            new ChartItem { Label = "کل املاک", Value = stats.TotalEstates },
+            new ChartItem { Label = "در انتظار تأیید", Value = stats.PendingEstates },
+            new ChartItem { Label = "کل کاربران", Value = stats.TotalUsers }
+        };
+    }
+
+    public class StatsDto
+    {
+        public int TotalEstates { get; set; }
+        public int PendingEstates { get; set; }
+        public int TotalUsers { get; set; }
+    }
+
+    public class ChartItem
+    {
+        public string Label { get; set; } = string.Empty;
+        public int Value { get; set; }
+    }
+}
