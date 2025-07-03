@@ -2,33 +2,56 @@
 @inject HttpClient Http
 @layout MainLayout
 
-<h2 class="text-2xl font-bold mb-4">داشبورد مدیریت</h2>
+<h2 class="text-3xl font-bold mb-6">Admin Dashboard</h2>
 
 <RadzenRow>
     <RadzenColumn Width="33%">
-        <RadzenCard Style="background-color: #1976d2; color: white; padding: 24px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-            <h4 class="text-lg font-semibold mb-2">تعداد کل املاک</h4>
-            <p class="text-2xl font-bold">@stats?.TotalEstates</p>
+        <RadzenCard Style="background: linear-gradient(135deg, #1976d2, #42a5f5); color: white; padding: 20px; border-radius: 16px; box-shadow: 0 6px 15px rgba(0,0,0,0.15);">
+            <div style="display: flex; align-items: center;">
+                <div style="font-size: 30px; margin-right: 16px;">
+                    <i class="material-icons">home_work</i>
+                </div>
+                <div>
+                    <h4 class="text-lg font-medium mb-1">Total Estates</h4>
+                    <p class="text-3xl font-bold">@stats?.TotalEstates</p>
+                </div>
+            </div>
         </RadzenCard>
     </RadzenColumn>
+
     <RadzenColumn Width="33%">
-        <RadzenCard Style="background-color: #d81b60; color: white; padding: 24px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-            <h4 class="text-lg font-semibold mb-2">املاک در انتظار تأیید</h4>
-            <p class="text-2xl font-bold">@stats?.PendingEstates</p>
+        <RadzenCard Style="background: linear-gradient(135deg, #d81b60, #f06292); color: white; padding: 20px; border-radius: 16px; box-shadow: 0 6px 15px rgba(0,0,0,0.15);">
+            <div style="display: flex; align-items: center;">
+                <div style="font-size: 30px; margin-right: 16px;">
+                    <i class="material-icons">hourglass_top</i>
+                </div>
+                <div>
+                    <h4 class="text-lg font-medium mb-1">Pending Estates</h4>
+                    <p class="text-3xl font-bold">@stats?.PendingEstates</p>
+                </div>
+            </div>
         </RadzenCard>
     </RadzenColumn>
+
     <RadzenColumn Width="33%">
-        <RadzenCard Style="background-color: #43a047; color: white; padding: 24px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-            <h4 class="text-lg font-semibold mb-2">تعداد کاربران</h4>
-            <p class="text-2xl font-bold">@stats?.TotalUsers</p>
+        <RadzenCard Style="background: linear-gradient(135deg, #43a047, #66bb6a); color: white; padding: 20px; border-radius: 16px; box-shadow: 0 6px 15px rgba(0,0,0,0.15);">
+            <div style="display: flex; align-items: center;">
+                <div style="font-size: 30px; margin-right: 16px;">
+                    <i class="material-icons">group</i>
+                </div>
+                <div>
+                    <h4 class="text-lg font-medium mb-1">Total Users</h4>
+                    <p class="text-3xl font-bold">@stats?.TotalUsers</p>
+                </div>
+            </div>
         </RadzenCard>
     </RadzenColumn>
 </RadzenRow>
 
-<h3 class="text-xl font-semibold mt-8 mb-4">آمار کلی سیستم</h3>
+<h3 class="text-2xl font-semibold mt-10 mb-4">System Overview</h3>
 
 <RadzenChart Style="height: 400px;">
-    <RadzenColumnSeries Data="@chartData" CategoryProperty="Label" ValueProperty="Value" Title="آمار کلی" />
+    <RadzenColumnSeries Data="@chartData" CategoryProperty="Label" ValueProperty="Value" Title="System Stats" />
     <RadzenCategoryAxis Padding="20" />
     <RadzenValueAxis />
 </RadzenChart>
@@ -43,9 +66,9 @@
 
         chartData = new List<ChartItem>
         {
-            new ChartItem { Label = "کل املاک", Value = stats.TotalEstates },
-            new ChartItem { Label = "در انتظار تأیید", Value = stats.PendingEstates },
-            new ChartItem { Label = "کل کاربران", Value = stats.TotalUsers }
+            new ChartItem { Label = "Total Estates", Value = stats.TotalEstates },
+            new ChartItem { Label = "Pending Estates", Value = stats.PendingEstates },
+            new ChartItem { Label = "Total Users", Value = stats.TotalUsers }
         };
     }
 

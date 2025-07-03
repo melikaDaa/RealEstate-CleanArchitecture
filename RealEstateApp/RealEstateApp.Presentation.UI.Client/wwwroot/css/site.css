@@ -66,3 +66,7 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+body.dark-mode .radzen-card {
+    background: #2c2c2c !important;
+    color: white !important;
+}

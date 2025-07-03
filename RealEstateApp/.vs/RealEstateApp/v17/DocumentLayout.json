@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB68B8E-5393-4558-A997-721B52D4CF4E}|RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj|d:\\new folder\\git source\\realestateproject\\realestateapp\\realestateapp.presentation.ui.client\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7CB68B8E-5393-4558-A997-721B52D4CF4E}|RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj|solutionrelative:realestateapp.presentation.ui.client\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB68B8E-5393-4558-A997-721B52D4CF4E}|RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj|d:\\new folder\\git source\\realestateproject\\realestateapp\\realestateapp.presentation.ui.client\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CB68B8E-5393-4558-A997-721B52D4CF4E}|RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj|solutionrelative:realestateapp.presentation.ui.client\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-03T14:09:54.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\Pages\\Dashboard.razor",
+              "RelativeDocumentMoniker": "RealEstateApp.Presentation.UI.Client\\Pages\\Dashboard.razor",
+              "ToolTip": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\Pages\\Dashboard.razor",
+              "RelativeToolTip": "RealEstateApp.Presentation.UI.Client\\Pages\\Dashboard.razor",
+              "ViewState": "AgIAADYAAAAAAAAAAAAQwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T14:07:14.894Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
