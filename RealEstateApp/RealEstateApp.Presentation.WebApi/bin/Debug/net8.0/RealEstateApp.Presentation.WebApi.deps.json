@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "RealEstateApp.Presentation.WebApi/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Google": "8.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8",
           "Microsoft.AspNetCore.Mvc.Versioning": "5.1.0",
           "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": "5.1.0",
@@ -114,6 +115,14 @@
           "Microsoft.AspNetCore.Authentication.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Http": "2.2.0",
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0"
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/8.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53112"
+          }
         }
       },
       "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.8": {
@@ -1158,6 +1167,13 @@
       "sha512": "sha512-XlVJzJ5wPOYW+Y0J6Q/LVTEyfS4ssLXmt60T0SPP+D8abVhBTl+cgw2gDHlyKYIkcJg7btMVh383NDkMVqD/fg==",
       "path": "microsoft.aspnetcore.authentication.core/2.2.0",
       "hashPath": "microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Google/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dPE/IiHhBqnJ7WrD72T20+DcHGCaR9F4RmIFap83W1Ts/ze5gBVe4Ii02qJdJzkUniQy5S/v42zpRIgJTPzPqQ==",
+      "path": "microsoft.aspnetcore.authentication.google/8.0.0",
+      "hashPath": "microsoft.aspnetcore.authentication.google.8.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.8": {
       "type": "package",

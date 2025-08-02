@@ -55,7 +55,7 @@ namespace RealEstateApp.Presentation.WebApi
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-        
+
 
             // پیکربندی JWT
             builder.Services.AddAuthentication(options =>
@@ -93,7 +93,7 @@ namespace RealEstateApp.Presentation.WebApi
 
 
             var app = builder.Build();
-        
+
             // Seed کردن کاربر پیش‌فرض
             using (var scope = app.Services.CreateScope())
             {
@@ -108,13 +108,13 @@ namespace RealEstateApp.Presentation.WebApi
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-          
+
 
             app.UseHttpsRedirection();
-        
+
             app.UseAuthentication(); // نیاز به فراخوانی UseAuthentication برای احراز هویت
             app.UseAuthorization();
-           
+
             app.MapControllers();
 
             app.Run();

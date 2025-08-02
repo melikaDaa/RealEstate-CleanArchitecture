@@ -3,3 +3,4 @@
 bin/
 obj/
 *.log
+appsettings.json

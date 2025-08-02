@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7CB68B8E-5393-4558-A997-721B52D4CF4E}|RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj|d:\\new folder\\git source\\realestateproject\\realestateapp\\realestateapp.presentation.ui.client\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7CB68B8E-5393-4558-A997-721B52D4CF4E}|RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj|solutionrelative:realestateapp.presentation.ui.client\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{89C79FCA-5C51-47ED-8597-773980FD0064}|RealEstateApp.Presentation.WebApi\\RealEstateApp.Presentation.WebApi.csproj|d:\\new folder\\git source\\realestateproject\\realestateapp\\realestateapp.presentation.webapi\\bin\\debug\\net8.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{89C79FCA-5C51-47ED-8597-773980FD0064}|RealEstateApp.Presentation.WebApi\\RealEstateApp.Presentation.WebApi.csproj|solutionrelative:realestateapp.presentation.webapi\\bin\\debug\\net8.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CB68B8E-5393-4558-A997-721B52D4CF4E}|RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj|d:\\new folder\\git source\\realestateproject\\realestateapp\\realestateapp.presentation.ui.client\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7CB68B8E-5393-4558-A997-721B52D4CF4E}|RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj|solutionrelative:realestateapp.presentation.ui.client\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{89C79FCA-5C51-47ED-8597-773980FD0064}|RealEstateApp.Presentation.WebApi\\RealEstateApp.Presentation.WebApi.csproj|d:\\new folder\\git source\\realestateproject\\realestateapp\\realestateapp.presentation.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{89C79FCA-5C51-47ED-8597-773980FD0064}|RealEstateApp.Presentation.WebApi\\RealEstateApp.Presentation.WebApi.csproj|solutionrelative:realestateapp.presentation.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C79FCA-5C51-47ED-8597-773980FD0064}|RealEstateApp.Presentation.WebApi\\RealEstateApp.Presentation.WebApi.csproj|d:\\new folder\\git source\\realestateproject\\realestateapp\\realestateapp.presentation.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89C79FCA-5C51-47ED-8597-773980FD0064}|RealEstateApp.Presentation.WebApi\\RealEstateApp.Presentation.WebApi.csproj|solutionrelative:realestateapp.presentation.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB68B8E-5393-4558-A997-721B52D4CF4E}|RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj|d:\\new folder\\git source\\realestateproject\\realestateapp\\realestateapp.presentation.ui.client\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7CB68B8E-5393-4558-A997-721B52D4CF4E}|RealEstateApp.Presentation.UI.Client\\RealEstateApp.Presentation.UI.Client.csproj|solutionrelative:realestateapp.presentation.ui.client\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "RealEstateApp.Presentation.UI.Client\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-03T14:09:54.634Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.WebApi\\bin\\Debug\\net8.0\\appsettings.json",
+              "RelativeDocumentMoniker": "RealEstateApp.Presentation.WebApi\\bin\\Debug\\net8.0\\appsettings.json",
+              "ToolTip": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.WebApi\\bin\\Debug\\net8.0\\appsettings.json",
+              "RelativeToolTip": "RealEstateApp.Presentation.WebApi\\bin\\Debug\\net8.0\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-02T07:35:11.972Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\appsettings.json",
+              "RelativeDocumentMoniker": "RealEstateApp.Presentation.UI.Client\\appsettings.json",
+              "ToolTip": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\appsettings.json",
+              "RelativeToolTip": "RealEstateApp.Presentation.UI.Client\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-02T07:29:08.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "RealEstateApp.Presentation.WebApi\\Program.cs",
+              "ToolTip": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.WebApi\\Program.cs",
+              "RelativeToolTip": "RealEstateApp.Presentation.WebApi\\Program.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAtwHcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T07:26:15.299Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Dashboard.razor",
-              "DocumentMoniker": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\Pages\\Dashboard.razor",
-              "RelativeDocumentMoniker": "RealEstateApp.Presentation.UI.Client\\Pages\\Dashboard.razor",
-              "ToolTip": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.UI.Client\\Pages\\Dashboard.razor",
-              "RelativeToolTip": "RealEstateApp.Presentation.UI.Client\\Pages\\Dashboard.razor",
-              "ViewState": "AgIAADYAAAAAAAAAAAAQwFcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-03T14:07:14.894Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "RealEstateApp.Presentation.WebApi\\appsettings.json",
+              "ToolTip": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.WebApi\\appsettings.json",
+              "RelativeToolTip": "RealEstateApp.Presentation.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-02T07:25:42.009Z",
               "EditorCaption": ""
             }
           ]

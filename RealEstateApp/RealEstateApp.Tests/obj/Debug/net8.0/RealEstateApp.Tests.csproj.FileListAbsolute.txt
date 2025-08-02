@@ -373,3 +373,4 @@ D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Tests\obj
 D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Tests\obj\Debug\net8.0\RealEstateApp.Tests.pdb
 D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Tests\obj\Debug\net8.0\RealEstateApp.Tests.genruntimeconfig.cache
 D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Tests\obj\Debug\net8.0\ref\RealEstateApp.Tests.dll
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Tests\bin\Debug\net8.0\FluentAssertions.dll

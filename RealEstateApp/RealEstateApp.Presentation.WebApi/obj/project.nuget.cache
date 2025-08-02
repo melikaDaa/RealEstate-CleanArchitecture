@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XtXk/a8IGdg=",
+  "dgSpecHash": "WgJZ8OZWx5M=",
   "success": true,
   "projectFilePath": "D:\\New folder\\git source\\RealEstateProject\\RealEstateApp\\RealEstateApp.Presentation.WebApi\\RealEstateApp.Presentation.WebApi.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\europe stock\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\europe stock\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
     "C:\\Users\\europe stock\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\europe stock\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\8.0.0\\microsoft.aspnetcore.authentication.google.8.0.0.nupkg.sha512",
     "C:\\Users\\europe stock\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.8\\microsoft.aspnetcore.authentication.jwtbearer.8.0.8.nupkg.sha512",
     "C:\\Users\\europe stock\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.0\\microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",
     "C:\\Users\\europe stock\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.0\\microsoft.aspnetcore.cryptography.keyderivation.8.0.0.nupkg.sha512",

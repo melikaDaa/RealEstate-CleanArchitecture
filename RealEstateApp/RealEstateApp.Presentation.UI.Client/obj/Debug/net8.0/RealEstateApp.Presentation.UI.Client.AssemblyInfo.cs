@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RealEstateApp.Presentation.UI.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2928ae19d23b6b100f29e2d8f5d5b1ba66606182")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+512d4f87a6b909330d281e96e81f27f4187c9a71")]
 [assembly: System.Reflection.AssemblyProductAttribute("RealEstateApp.Presentation.UI.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RealEstateApp.Presentation.UI.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

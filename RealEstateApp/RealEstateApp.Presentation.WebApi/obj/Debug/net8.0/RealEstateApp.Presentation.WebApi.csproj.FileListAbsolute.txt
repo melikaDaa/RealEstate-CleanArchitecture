@@ -284,3 +284,4 @@ D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Presentat
 D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Presentation.WebApi\obj\Debug\net8.0\RealEstateApp.Presentation.WebApi.pdb
 D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Presentation.WebApi\obj\Debug\net8.0\RealEstateApp.Presentation.WebApi.genruntimeconfig.cache
 D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Presentation.WebApi\obj\Debug\net8.0\ref\RealEstateApp.Presentation.WebApi.dll
+D:\New folder\git source\RealEstateProject\RealEstateApp\RealEstateApp.Presentation.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
